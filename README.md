@@ -1,6 +1,5 @@
 # legends_game
 
 ## Project setup
-```
-npm install
-```
+
+View [Version Demo](https://facesar.github.io/legends_game/)
