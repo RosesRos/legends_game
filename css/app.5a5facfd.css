@@ -10,6 +10,14 @@
     margin: 0 auto;
     padding: 1rem;
 }
+.coco {
+    text-align: center;
+    max-width: 40rem;
+    width: 100%;
+    background: rgba(107, 137, 9, 0.2);
+    margin: 0 auto;
+    padding: 1rem;
+}
 .card_title {
     color: brown;
     font-size: 1.6rem;
