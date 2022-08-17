@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div v-bind:class="[{card: isGreen, coco: isRed}]">
     <h3 class="card_title">{{name}}</h3>
     <button class="card_btn" v-on:click="changeName">change name here</button>
   </div>
@@ -12,11 +12,14 @@ export default {
   data() {
     return {
       name: 'luis',
+      isRed: true,
+      isGreen: true
     }
   },
   methods: {
     changeName: function() {
       this.name = 'carlos'
+      this.isRed = !this.isRed
     }
   }
   // components: {
@@ -34,6 +37,15 @@ export default {
     margin: 0 auto;
     padding: 1rem;
   }
+
+  .coco {
+    text-align: center;
+    max-width: 40rem;
+    width: 100%;
+    background: rgba(107, 137, 9, 0.2);
+    margin: 0 auto;
+    padding: 1rem;
+  }  
 
   .card_title {
     color: brown;
