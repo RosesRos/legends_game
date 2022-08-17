@@ -1,0 +1,23 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+.card {
+    text-align: center;
+    max-width: 40rem;
+    width: 100%;
+    background: rgba(9, 9, 137, 0.2);
+    margin: 0 auto;
+    padding: 1rem;
+}
+.card_title {
+    color: brown;
+    font-size: 1.6rem;
+}
+.card_btn {
+    padding: 1rem;
+    background-color: rgba(137, 9, 107, 0.2);
+    color: wheat;
+    border: none;
+}
+
