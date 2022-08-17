@@ -2,13 +2,17 @@
   "name": "legends_game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://facesar.github.io/legends_game/",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
+    "predeploy": "vue-cli-service build --mode dist",
+    "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "gh-pages": "^4.0.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
