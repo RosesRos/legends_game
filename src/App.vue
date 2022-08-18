@@ -1,6 +1,12 @@
 <template>
-  <div v-bind:class="[{card: isGreen, coco: isRed}]">
-    <h3 class="card_title">{{name}}</h3>
+  <div  v-bind:class="[{card: isGreen, coco: isRed}]"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+  >
+    <h3 class="card_title text-blue-600	">{{name}}</h3>
     <button class="card_btn" v-on:click="changeName">change name here</button>
   </div>
 </template>
@@ -28,27 +34,35 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
+
+  // @import './index.css';
+  @import url('styles/Main');
+
+
   .card {
     text-align: center;
     max-width: 40rem;
     width: 100%;
-    background: rgba(9, 9, 137, 0.2);
+    background: var(--bodyBackground);
     margin: 0 auto;
     padding: 1rem;
+    margin-top: 2rem;
   }
 
   .coco {
     text-align: center;
     max-width: 40rem;
     width: 100%;
-    background: rgba(107, 137, 9, 0.2);
+    background: var(--bodyBackground);
     margin: 0 auto;
     padding: 1rem;
+    margin-top: 2rem;
+
   }  
 
   .card_title {
-    color: brown;
+    // color: brown;
     font-size: 1.6rem;
   }
 
