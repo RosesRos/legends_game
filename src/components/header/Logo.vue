@@ -1,17 +1,17 @@
 <template>
     <div class="nav_logo">
-        <div class="nav_logo_img">
-            <router-link to="/cocoTree">
-                <img v-bind:src="crown" alt="Logo App" />
+            <router-link to="/">
+                <div class="nav_logo_img">
+                    <img v-bind:src="crown" alt="Logo App" />
+                </div>
             </router-link>
-        </div>
-        <LogoTitle class="nav_logo_title" title="Boost Royal"></LogoTitle>
+        <title-vue class="nav_logo_title" title="Boost Royal"></title-vue>
     </div>
 </template>
 
 <script>
     import crown from '../../assets/img/crown-4697.svg';
-    import LogoTitle from './LogoTitle.vue';
+    import TitleVue from '../subComponents/Title.vue';
 
     export default {
         name: 'LogoVue',
@@ -21,7 +21,7 @@
             }
         },
         components: {
-            LogoTitle
+            TitleVue
         },
     }
 </script>

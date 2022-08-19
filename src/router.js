@@ -1,34 +1,56 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
-import cocoTree from './views/cocoTree.vue';
-import cocoFour from './views/cocoFour.vue';
+import HomeVue from './views/Home.vue';
+import GamesVue from './views/Games.vue';
+import LegalVue from './views/Legal.vue';
+import PriceVue from './views/Price.vue';
+import SupportVue from './views/Support.vue';
 
-import HeaderVue from './components/header/Header.vue';
 
 export const router = createRouter({
     history: createWebHashHistory(),
     routes: [
         {
             path: '',
-            component: HeaderVue,
+            component: HomeVue,
         },
         {
-            path: '/cocoTree',
-            component: cocoTree,
+            path: '/games',
+            component: GamesVue,
             children: [
                 {
-                  path: '/cocoTree/:id',
-                  component: cocoTree,
+                  path: '/games/:id',
+                  component: GamesVue,
                 }
             ]
         },
         {
-            path: '/cocoFour',
-            component: cocoFour,
+            path: '/legal',
+            component: LegalVue,
             children: [
                 {
-                  path: '/cocoFour/:id',
-                  component: cocoFour,
+                  path: '/legal/:id',
+                  component: LegalVue,
+                }
+            ]
+        },
+        {
+            path: '/price',
+            component: PriceVue,
+            children: [
+                {
+                  path: '/price/:id',
+                  component: PriceVue,
+                }
+            ]
+        },
+        {
+            path: '/support',
+            component: SupportVue,
+            children: [
+                {
+                  path: '/support/:id',
+                  component: SupportVue,
                 }
             ]
         }

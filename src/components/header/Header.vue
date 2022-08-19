@@ -1,22 +1,17 @@
 <template>
-    <header>
-        <nav class="nav">
-            <div class="nav_list">
+    <nav class="nav">
+        <div class="nav_list">
             <div class="nav_content">
                 <LogoVue></LogoVue>
             </div>
             <div class="nav_content">
-                <img src="" alt="">
+                <router-link to="/legal">legal</router-link>
+                <router-link to="/games">games</router-link>
+                <router-link to="/price">price</router-link>
+                <router-link to="/support">support</router-link>
             </div>
         </div>
     </nav>
-    </header>
-    <main>
-        
-    </main>
-    <footer>
-        
-    </footer>
 </template>
 
 <script>
