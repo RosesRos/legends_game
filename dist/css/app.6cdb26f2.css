@@ -1167,7 +1167,7 @@ body[data-v-92f4ccfc] {
   margin-top: 2rem;
 }
 .banner_inner[data-v-92f4ccfc] {
-  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5));
+  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun2.1de776a0.jpg);
   -webkit-background-position: center;
   -o-background-position: center;
   -ms-background-position: center;
@@ -1182,7 +1182,10 @@ body[data-v-92f4ccfc] {
   background-size: cover;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  border: 0.4rem solid rgba(93, 46, 100, 0.8);
+  border: 0.3rem solid;
+  -o-border-image: linear-gradient(to left top, transparent 10%, transparent 30%, transparent 70%, rgba(147, 45, 163, 0.8) 80%);
+     border-image: linear-gradient(to left top, transparent 10%, transparent 30%, transparent 70%, rgba(147, 45, 163, 0.8) 80%);
+  border-image-slice: 1;
   border-radius: 2rem;
   width: 100%;
   height: 75rem;
