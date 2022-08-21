@@ -530,8 +530,8 @@ video {
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
   --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
-  --textColorTwo: #B59774;
-  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
@@ -555,18 +555,6 @@ body {
   -ms-background-image: var(--bodyBackground);
   -moz-background-image: var(--bodyBackground);
   background-image: var(--bodyBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
 }
 .container {
   padding: 2rem 15rem;
@@ -638,8 +626,8 @@ body {
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
   --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
-  --textColorTwo: #B59774;
-  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
@@ -663,18 +651,6 @@ body {
   -ms-background-image: var(--bodyBackground);
   -moz-background-image: var(--bodyBackground);
   background-image: var(--bodyBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
 }
 .container {
   padding: 2rem 15rem;
@@ -763,8 +739,8 @@ body {
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
   --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
-  --textColorTwo: #B59774;
-  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
@@ -788,18 +764,6 @@ body {
   -ms-background-image: var(--bodyBackground);
   -moz-background-image: var(--bodyBackground);
   background-image: var(--bodyBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
 }
 .container {
   padding: 2rem 15rem;
@@ -923,8 +887,8 @@ body {
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
   --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
-  --textColorTwo: #B59774;
-  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
@@ -948,18 +912,6 @@ body {
   -ms-background-image: var(--bodyBackground);
   -moz-background-image: var(--bodyBackground);
   background-image: var(--bodyBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
 }
 .container {
   padding: 2rem 15rem;
@@ -1117,8 +1069,8 @@ header .nav_menu_link:hover::after {
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
   --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
-  --textColorTwo: #B59774;
-  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
@@ -1142,18 +1094,6 @@ body[data-v-92f4ccfc] {
   -ms-background-image: var(--bodyBackground);
   -moz-background-image: var(--bodyBackground);
   background-image: var(--bodyBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
 }
 .container[data-v-92f4ccfc] {
   padding: 2rem 15rem;
@@ -1183,12 +1123,75 @@ body[data-v-92f4ccfc] {
   background-origin: border-box;
   background-clip: content-box, border-box;
   border: 0.3rem solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
   -o-border-image: linear-gradient(to left top, transparent 10%, transparent 30%, transparent 70%, rgba(147, 45, 163, 0.8) 80%);
      border-image: linear-gradient(to left top, transparent 10%, transparent 30%, transparent 70%, rgba(147, 45, 163, 0.8) 80%);
   border-image-slice: 1;
   border-radius: 2rem;
   width: 100%;
-  height: 75rem;
+  height: 55rem;
+}
+.banner_block[data-v-92f4ccfc] {
+  padding: 5rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.banner_title[data-v-92f4ccfc] {
+  font-family: 'IncosolataBlack';
+  font-size: 4rem;
+  font-style: normal;
+  text-shadow: 3px 3px 10px var(--colorShadow);
+}
+.banner_title[data-v-92f4ccfc]:nth-child(2) {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1;
+  text-shadow: none;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: var(--textBackground);
+}
+.banner_title[data-v-92f4ccfc]:nth-child(3) {
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 2;
+  text-shadow: none;
+}
+.banner_description[data-v-92f4ccfc] {
+  font-size: 1.6rem;
+  max-width: 50rem;
+  width: 100%;
+}
+.banner_btn[data-v-92f4ccfc] {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.banner_btn_title[data-v-92f4ccfc] {
+  font-size: 6rem;
+  line-height: 1;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: var(--textColorTwo);
+  max-width: 30rem;
+  width: 100%;
+}
+.banner_btn_primary[data-v-92f4ccfc] {
+  padding: 0.8rem 8rem;
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 2rem;
+  font-family: 'IncosolataBold';
+  font-size: 2.5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.banner_btn_primary[data-v-92f4ccfc]:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -1773,8 +1776,8 @@ video {
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
   --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
-  --textColorTwo: #B59774;
-  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
@@ -1798,18 +1801,6 @@ body {
   -ms-background-image: var(--bodyBackground);
   -moz-background-image: var(--bodyBackground);
   background-image: var(--bodyBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
 }
 .container {
   padding: 2rem 15rem;
