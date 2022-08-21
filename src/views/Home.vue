@@ -1,13 +1,11 @@
 <template>
     <header class="header">
-        <div class="container">
-            <div class="header_inner">
-                <header-vue/>
-            </div>
+        <div class="header_inner">
+            <header-vue/>
         </div>
     </header>
-    <main>
-        
+    <main class="main">
+        <Main-vue/>
     </main>
     <footer>
         
@@ -15,12 +13,14 @@
 </template>
 
 <script>
-    import HeaderVue from '../components/header/Header';
+    import HeaderVue from '@/components/header/Header';
+    import MainVue from '@/components/main/Main.vue';
 
     export default {
         name: 'HomeVue',
         components: {
-            HeaderVue
+            HeaderVue,
+            MainVue
         }
     }
 </script>

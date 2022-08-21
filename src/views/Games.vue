@@ -1,9 +1,7 @@
 <template>
     <header class="header">
-      <div class="container">
-        <div class="header_inner">
-          <header-vue/>
-        </div>
+      <div class="header_inner">
+        <header-vue/>
       </div>
     </header>
     <main>

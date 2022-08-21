@@ -532,7 +532,7 @@ video {
   --textColorOne: #E1B3EF;
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
@@ -569,10 +569,12 @@ body {
   background-size: cover;
 }
 .container {
-  padding: 1rem 1.5rem;
+  padding: 2rem 15rem;
 }
-.container:first-child {
-  padding: 0;
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
 }
 #app {
   color: var(--textColorOne);
@@ -638,7 +640,7 @@ body {
   --textColorOne: #E1B3EF;
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
@@ -675,10 +677,12 @@ body {
   background-size: cover;
 }
 .container {
-  padding: 1rem 1.5rem;
+  padding: 2rem 15rem;
 }
-.container:first-child {
-  padding: 0;
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
 }
 .nav_logo {
   display: flex;
@@ -761,7 +765,7 @@ body {
   --textColorOne: #E1B3EF;
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
@@ -798,10 +802,12 @@ body {
   background-size: cover;
 }
 .container {
-  padding: 1rem 1.5rem;
+  padding: 2rem 15rem;
 }
-.container:first-child {
-  padding: 0;
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
 }
 .nav_control_btn {
   padding: 0.8rem 3rem;
@@ -919,7 +925,7 @@ body {
   --textColorOne: #E1B3EF;
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
@@ -956,10 +962,12 @@ body {
   background-size: cover;
 }
 .container {
-  padding: 1rem 1.5rem;
+  padding: 2rem 15rem;
 }
-.container:first-child {
-  padding: 0;
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
 }
 header {
   overflow: hidden;
@@ -967,6 +975,9 @@ header {
 header .nav {
   font-family: 'UbuntuBoldItalic';
   overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
   background-image: var(--headerBackground);
   -webkit-background-position: center;
   -o-background-position: center;
@@ -980,12 +991,20 @@ header .nav {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+  border-bottom: 1px solid;
+  -o-border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
+     border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
 }
 header .nav_list {
-  padding: 2rem 6rem;
+  padding: 2rem 15rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 1200px) {
+header .nav_list {
+    padding: 2rem 5rem;
+}
 }
 header .nav_content {
   display: flex;
@@ -993,6 +1012,9 @@ header .nav_content {
 }
 header .nav_content:nth-child(1) {
   display: none;
+}
+header .nav_menu {
+  padding-left: 10rem;
 }
 header .nav_menu_items {
   display: flex;
@@ -1035,6 +1057,145 @@ header .nav_menu_link::after {
 }
 header .nav_menu_link:hover::after {
   opacity: 1;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/Banner.vue?vue&type=style&index=0&id=92f4ccfc&lang=less&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bgImage[data-v-92f4ccfc] {
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'UbuntuItalic';
+  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'IncosolataBold';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'IncosolataBlack';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'IncosolataLigth';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
+  font-weight: 300;
+}
+[data-v-92f4ccfc]:root {
+  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
+  --logoBackground: #60BFCD;
+  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
+  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --textColorOne: #E1B3EF;
+  --textColorTwo: #B59774;
+  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
+  --colorShadow: #fbfbfb;
+  --fontContent: 10px;
+  --fontBody: 16px;
+}
+*[data-v-92f4ccfc]::before,
+*[data-v-92f4ccfc]::after {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html[data-v-92f4ccfc] {
+  font-size: var(--fontContent);
+  margin: 0;
+  padding: 0;
+}
+body[data-v-92f4ccfc] {
+  font-family: 'UbuntuRegular', sans-serif;
+  font-size: var(--fontBody);
+  -webkit-background-image: var(--bodyBackground);
+  -o-background-image: var(--bodyBackground);
+  -ms-background-image: var(--bodyBackground);
+  -moz-background-image: var(--bodyBackground);
+  background-image: var(--bodyBackground);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.container[data-v-92f4ccfc] {
+  padding: 2rem 15rem;
+}
+@media (max-width: 1200px) {
+.container[data-v-92f4ccfc] {
+    padding: 2rem 5rem;
+}
+}
+.banner[data-v-92f4ccfc] {
+  margin-top: 2rem;
+}
+.banner_inner[data-v-92f4ccfc] {
+  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5));
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: 0.4rem solid rgba(93, 46, 100, 0.8);
+  border-radius: 2rem;
+  width: 100%;
+  height: 75rem;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/Main.vue?vue&type=style&index=0&id=61fb690f&lang=less ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.section {
+  overflow: hidden;
+}
+.section_inner {
+  padding-top: 7rem;
 }
 
 /*!************************************************************************************************************************************************************************************************************************************!*\
@@ -1611,7 +1772,7 @@ video {
   --textColorOne: #E1B3EF;
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
@@ -1648,9 +1809,11 @@ body {
   background-size: cover;
 }
 .container {
-  padding: 1rem 1.5rem;
+  padding: 2rem 15rem;
 }
-.container:first-child {
-  padding: 0;
+@media (max-width: 1200px) {
+  .container {
+    padding: 2rem 5rem;
+  }
 }
 

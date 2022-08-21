@@ -50,15 +50,23 @@
     header {
         overflow: hidden;
         .nav {
-        font-family: @font_2;
-        overflow: hidden;
-        background-image: var(--headerBackground);
-        .bgImage();
+            font-family: @font_2;
+            overflow: hidden;
+            position: fixed;
+            left: 0;
+            right: 0;
+            background-image: var(--headerBackground);
+            .bgImage();
+            border-bottom: 1px solid;
+            border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f,) 47% 0%;
             &_list {
-                padding: 2rem 6rem;
+                padding: 2rem 15rem;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                @media (max-width: @desktop) {
+                    padding: 2rem 5rem;
+                }
             }
             &_content {
                 display: flex;
@@ -68,6 +76,7 @@
                 }
             }
             &_menu {
+                padding-left: 10rem;
                 &_items {
                     display: flex;
                     justify-content: space-between;

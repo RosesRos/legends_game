@@ -14,8 +14,7 @@
   --textColorOne: #E1B3EF;
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
-  // --colorIcon: rgba(117, 59, 139, 0.6);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, rgb(83, 43, 95) 0%, rgb(69, 45, 103) 100%);
   --colorShadow: #fbfbfb;
 
   // spacing
@@ -52,8 +51,8 @@ body {
 
 
 .container {
-  padding: 1rem 1.5rem;
-  &:first-child {
-    padding: 0;
+  padding: 2rem 15rem;
+  @media (max-width: @desktop) {
+    padding: 2rem 5rem;
   }
 }
