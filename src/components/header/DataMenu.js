@@ -1,18 +1,22 @@
 export const Data = [
     {
         id: 1,
-        value: 'Is it Legal? '
+        link: 'Is it Legal? ',
+        rout: 'legal',
     },
     {
         id: 2,
-        value: 'Our Games'
+        link: 'Our Games',
+        rout: 'games',
     },
     {
         id: 3,
-        value: 'Price'
+        link: 'Price',
+        rout: 'price',
     },
     {
         id: 4,
-        value: '24/7 Support'
+        link: '24/7 Support',
+        rout: 'support',
     }
 ];

@@ -36,17 +36,18 @@
             align-items: center;
             &_img {
                 max-width: 4rem;
+                width: 60%;
                 background-color: var(--logoBackground);
                 padding: 1rem;
                 border-radius: 50%;
                 margin-right: 2rem;
             }
             &_title {
-                color: whitesmoke;
+                color: var(--textColorOne);
                 font-size: 2rem;
                 font-family: @font_1;
                 font-weight: 500;
-                text-shadow: @TextShadow var(--textColorOne);
+                text-shadow: @TextShadow var(--colorShadow);
             }
         }
     }

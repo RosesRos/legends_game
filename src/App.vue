@@ -20,7 +20,7 @@ export default {
   @import url('styles/Main');
 
   #app {
-    color: antiquewhite;
+    color: var(--textColorOne);
   }
 
 </style>

@@ -1,6 +1,10 @@
 <template>
-    <header>
-        <header-vue/>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <header-vue/>
+            </div>
+        </div>
     </header>
     <main>
         
@@ -11,7 +15,7 @@
 </template>
 
 <script>
-    import HeaderVue from '../components/header/Header.vue';
+    import HeaderVue from '../components/header/Header';
 
     export default {
         name: 'HomeVue',

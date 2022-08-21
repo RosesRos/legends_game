@@ -1,17 +1,10 @@
 <template>
-  <header>
-    <nav class="nav">
-      <div class="nav_list">
-        <div class="nav_content">
-          <h1>is it legal?</h1>
-          <router-link to="/price">price</router-link>
-          <router-link to="/">home</router-link>
-        </div>
-        <div class="nav_content">
-          <img src="" alt="">
-        </div>
+  <header class="header">
+    <div class="container">
+      <div class="header_inner">
+        <header-vue/>
       </div>
-    </nav>
+    </div>
   </header>
   <main>
 
@@ -22,6 +15,9 @@
 </template>
 
 <script>
+
+  import HeaderVue from '../components/header/Header';
+
   export default {
     name: 'LegalVue',
     computed: {
@@ -29,5 +25,8 @@
         return this.$route.params.id;
       },
     },
+    components: {
+      HeaderVue
+    }
   }
 </script>
