@@ -1,24 +1,50 @@
 <template>
     <div :class="{banner: bann}">
         <div class="banner_inner">
-
+            <div class="banner_block">
+                <div class="banner_info">
+                    <title-vue class="banner_title" title="The Leading"></title-vue>
+                    <title-vue class="banner_title" title="League of Legends"></title-vue>
+                    <title-vue class="banner_title" title="Boosting Platform"></title-vue>
+                    <p class="banner_description">Sunt ipsum aliquip est occaecat labore. Ullamco minim laborum consectetur nostrud consequat Lorem minim esse mollit exercitati.</p>
+                    <div v-bind:class="{banner_btn: info}">
+                        <title-vue class="banner_btn_title" title="League of Legends"></title-vue>
+                        <div class="banner_primary">
+                            <router-link to="price">
+                                <button-vue class="banner_btn_primary" button="Calculate Boots Prices"/>
+                            </router-link>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_img">
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+    import TitleVue from '../subComponents/Title.vue';
+    import ButtonVue from '../subComponents/Button.vue';
+
     export default {
         name: 'BannerVue',
         data() {
             return {
-                bann: true
+                bann: true,
+                info: true,
             }
+        },
+        components: {
+            TitleVue,
+            ButtonVue
         }
     }
 </script>
 
 <style lang="less" scoped>
     @import url('../../styles/Main');
+
     .banner {
         margin-top: 2rem;
         &_inner {
@@ -28,11 +54,74 @@
             background-origin: border-box;
             background-clip: content-box, border-box;
             border: 0.3rem solid;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
             border-image: linear-gradient(to left top, transparent 10%,  transparent 30%, transparent 70%, rgba(147, 45, 163, 0.8) 80%);
             border-image-slice: 1;
             border-radius: 2rem;
             width: 100%;
-            height: 75rem;
+            height: 55rem;
+        }
+        &_block {
+            padding: 5rem 6rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        &_title {
+            font-family: @font_6;
+            font-size: 4rem;
+            font-style: normal;
+            text-shadow: @TextShadow var(--colorShadow);
+            &:nth-child(2) {
+                font-size: 6rem;
+                font-weight: 600;
+                line-height: 1;
+                text-shadow: none;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                background-image: var(--textBackground);
+            }
+            &:nth-child(3) {
+                font-size: 7rem;
+                font-weight: 600;
+                line-height: 2;
+                text-shadow: none;
+            }
+        }
+        &_description {
+            font-size: 1.6rem;
+            max-width: 50rem;
+            width: 100%;
+        }
+        &_btn {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            &_title{
+                font-size: 6rem;
+                line-height: 1;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                background-image: var(--textColorTwo);
+                max-width: 30rem;
+                width: 100%;
+            }
+            &_primary {
+                padding: 0.8rem 8rem;
+                background-image: var(--btnBackground);
+                border: none;
+                border-radius: 2rem;
+                font-family: @font_5;
+                font-size: 2.5rem;
+                text-align: center;
+                color: aliceblue;
+                &:hover {
+                    background-image: linear-gradient(90deg, #689DB2 0%,  #678ACC 100%);
+                }
+            }
         }
     }
 
