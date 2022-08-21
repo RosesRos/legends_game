@@ -533,7 +533,7 @@ video {
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
-  --colorIcon: #552277;
+  --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -568,8 +568,14 @@ body {
   -ms-background-size: cover;
   background-size: cover;
 }
+.container {
+  padding: 1rem 1.5rem;
+}
+.container:first-child {
+  padding: 0;
+}
 #app {
-  color: antiquewhite;
+  color: var(--textColorOne);
 }
 
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -633,7 +639,7 @@ body {
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
-  --colorIcon: #552277;
+  --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -668,6 +674,12 @@ body {
   -ms-background-size: cover;
   background-size: cover;
 }
+.container {
+  padding: 1rem 1.5rem;
+}
+.container:first-child {
+  padding: 0;
+}
 .nav_logo {
   display: flex;
   justify-content: space-between;
@@ -675,17 +687,176 @@ body {
 }
 .nav_logo_img {
   max-width: 4rem;
+  width: 60%;
   background-color: var(--logoBackground);
   padding: 1rem;
   border-radius: 50%;
   margin-right: 2rem;
 }
 .nav_logo_title {
-  color: whitesmoke;
+  color: var(--textColorOne);
   font-size: 2rem;
   font-family: 'UbuntuBold';
   font-weight: 500;
-  text-shadow: 7px 3px 7px var(--textColorOne);
+  text-shadow: 3px 3px 10px var(--colorShadow);
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/header/HeaderButton.vue?vue&type=style&index=0&id=6e3143be&lang=less ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bgImage {
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'UbuntuItalic';
+  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'IncosolataBold';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'IncosolataBlack';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'IncosolataLigth';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
+  font-weight: 300;
+}
+:root {
+  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
+  --logoBackground: #60BFCD;
+  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
+  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --textColorOne: #E1B3EF;
+  --textColorTwo: #B59774;
+  --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
+  --colorShadow: #fbfbfb;
+  --fontContent: 10px;
+  --fontBody: 16px;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-size: var(--fontContent);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'UbuntuRegular', sans-serif;
+  font-size: var(--fontBody);
+  -webkit-background-image: var(--bodyBackground);
+  -o-background-image: var(--bodyBackground);
+  -ms-background-image: var(--bodyBackground);
+  -moz-background-image: var(--bodyBackground);
+  background-image: var(--bodyBackground);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.container {
+  padding: 1rem 1.5rem;
+}
+.container:first-child {
+  padding: 0;
+}
+.nav_control_btn {
+  padding: 0.8rem 3rem;
+  background-color: rgba(117, 59, 139, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 2rem;
+  font-family: 'IncosolataBold';
+  display: flex;
+  align-items: center;
+}
+.nav_control_btn:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
+.nav_control_icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.8rem;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/header/Burger.vue?vue&type=style&index=0&id=ceeba212&lang=less ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.nav_burger_items {
+  display: block;
+  position: absolute;
+  top: 2.5rem;
+  left: 2rem;
+  width: 3.5rem;
+  height: 2.8rem;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  z-index: 11;
+}
+.nav_burger_item {
+  display: block;
+  width: 100%;
+  height: 0.3rem;
+  margin-bottom: 0.6rem;
+  background-color: var(--textColorOne);
+  border-radius: 2rem;
+  transition: all 0.2s linear;
+}
+.nav_burger_item:nth-child(1) {
+  width: 80%;
+}
+.nav_burger_item:nth-child(2) {
+  width: 100%;
+}
+.nav_burger_item:nth-child(3) {
+  width: 60%;
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -749,7 +920,7 @@ body {
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
-  --colorIcon: #552277;
+  --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -784,6 +955,12 @@ body {
   -ms-background-size: cover;
   background-size: cover;
 }
+.container {
+  padding: 1rem 1.5rem;
+}
+.container:first-child {
+  padding: 0;
+}
 header {
   overflow: hidden;
 }
@@ -806,10 +983,58 @@ header .nav {
 }
 header .nav_list {
   padding: 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header .nav_content {
   display: flex;
   justify-content: space-between;
+}
+header .nav_content:nth-child(1) {
+  display: none;
+}
+header .nav_menu_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav_menu_item {
+  padding: 1rem;
+  margin-right: 2rem;
+}
+header .nav_menu_link {
+  position: relative;
+  transition: all 0.2s linear;
+}
+header .nav_menu_link::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background: var(--textColorOne);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 0.2rem;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+header .nav_menu_link:hover::after {
+  opacity: 1;
 }
 
 /*!************************************************************************************************************************************************************************************************************************************!*\
@@ -1387,7 +1612,7 @@ video {
   --textColorTwo: #B59774;
   --textBackground: linear-gradient(270deg, #678ACC 0%, #689DB2 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532B5F 0%, #452D67 100%);
-  --colorIcon: #552277;
+  --colorShadow: #fbfbfb;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -1421,5 +1646,11 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.container {
+  padding: 1rem 1.5rem;
+}
+.container:first-child {
+  padding: 0;
 }
 
