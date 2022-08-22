@@ -1105,6 +1105,7 @@ body[data-v-92f4ccfc] {
 }
 .banner[data-v-92f4ccfc] {
   margin-top: 2rem;
+  padding-top: 7rem;
 }
 .banner_inner[data-v-92f4ccfc] {
   background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun2.1de776a0.jpg);
@@ -1184,7 +1185,7 @@ body[data-v-92f4ccfc] {
   padding: 0.8rem 8rem;
   background-image: var(--btnBackground);
   border: none;
-  border-radius: 2rem;
+  border-radius: 5rem;
   font-family: 'IncosolataBold';
   font-size: 2.5rem;
   text-align: center;
@@ -1194,14 +1195,165 @@ body[data-v-92f4ccfc] {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/MainControls.vue?vue&type=style&index=0&id=7aa751e5&lang=less ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bgImage {
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'UbuntuItalic';
+  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'IncosolataBold';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'IncosolataBlack';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'IncosolataLigth';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
+  font-weight: 300;
+}
+:root {
+  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
+  --logoBackground: #60BFCD;
+  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
+  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --textColorOne: #E1B3EF;
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
+  --colorShadow: #fbfbfb;
+  --fontContent: 10px;
+  --fontBody: 16px;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-size: var(--fontContent);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'UbuntuRegular', sans-serif;
+  font-size: var(--fontBody);
+  -webkit-background-image: var(--bodyBackground);
+  -o-background-image: var(--bodyBackground);
+  -ms-background-image: var(--bodyBackground);
+  -moz-background-image: var(--bodyBackground);
+  background-image: var(--bodyBackground);
+}
+.container {
+  padding: 2rem 15rem;
+}
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
+}
+.controls {
+  overflow: hidden;
+}
+.controls_block {
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.controls_btn {
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  max-width: 20rem;
+  width: 100%;
+  border-radius: 5rem;
+  font-family: 'IncosolataBold';
+  font-weight: 550;
+}
+.controls_btn:nth-child(1) {
+  background-color: rgba(117, 59, 139, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: none;
+}
+.controls_btn:nth-child(1):hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
+.controls_btn:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
+.controls_btn_primary {
+  padding: 0.4rem 4rem;
+  max-width: 20rem;
+  width: 100%;
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  font-family: 'IncosolataBold';
+  font-size: 2rem;
+  text-align: center;
+  color: aliceblue;
+}
+.controls_btn_primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.controls_info p {
+  color: gray;
+  font-size: 1.4rem;
+}
+
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/Main.vue?vue&type=style&index=0&id=61fb690f&lang=less ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .section {
   overflow: hidden;
 }
-.section_inner {
-  padding-top: 7rem;
+.section:nth-child(2) {
+  margin-top: -1rem;
 }
 
 /*!************************************************************************************************************************************************************************************************************************************!*\
