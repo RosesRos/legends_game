@@ -346,7 +346,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Data\": function() { return /* binding */ Data; },\n/* harmony export */   \"Icons\": function() { return /* binding */ Icons; }\n/* harmony export */ });\nconst Data = [{\n  id: 1,\n  title: 'League of Legends'\n}, {\n  id: 2,\n  title: 'Call of Duty'\n}, {\n  id: 3,\n  title: 'HeartStone'\n}, {\n  id: 4,\n  title: 'Dota'\n}];\nconst Icons = [{\n  id: 1,\n  description: 'Select Your Details',\n  // img: require('@/assets/img/list.svg'),\n  alt: 'img list'\n}, {\n  id: 2,\n  description: 'Check out as a Guest',\n  // img: require('@/assets/img/avat.svg'),\n  alt: 'img avatar'\n}, {\n  id: 3,\n  description: 'Select a Payment Apliers',\n  // img: require('@/assets/img/wallet.svg'),\n  alt: 'img wallet'\n}, {\n  id: 4,\n  description: 'Track Your Road',\n  // img: require('@/assets/img/wayroad.svg'),\n  alt: 'img road'\n}];\n\n//# sourceURL=webpack://legends_game/./src/components/main/DataMain.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Data\": function() { return /* binding */ Data; },\n/* harmony export */   \"Icons\": function() { return /* binding */ Icons; }\n/* harmony export */ });\nconst Data = [{\n  id: 1,\n  title: 'League of Legends'\n}, {\n  id: 2,\n  title: 'Call of Duty'\n}, {\n  id: 3,\n  title: 'HeartStone'\n}, {\n  id: 4,\n  title: 'Dota'\n}];\nconst Icons = [{\n  id: 1,\n  description: 'Select Your Details',\n  img: __webpack_require__(/*! ../../assets/img/list.svg */ \"./src/assets/img/list.svg\"),\n  alt: 'img list'\n}, {\n  id: 2,\n  description: 'Check out as a Guest',\n  img: __webpack_require__(/*! ../../assets/img/avat.svg */ \"./src/assets/img/avat.svg\"),\n  alt: 'img avatar'\n}, {\n  id: 3,\n  description: 'Select a Payment Apliers',\n  img: __webpack_require__(/*! ../../assets/img/wallet.svg */ \"./src/assets/img/wallet.svg\"),\n  alt: 'img wallet'\n}, {\n  id: 4,\n  description: 'Track Your Road',\n  img: __webpack_require__(/*! ../../assets/img/wayroad.svg */ \"./src/assets/img/wayroad.svg\"),\n  alt: 'img road'\n}];\n\n//# sourceURL=webpack://legends_game/./src/components/main/DataMain.js?");
 
 /***/ }),
 
@@ -1040,6 +1040,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
+/***/ "./src/assets/img/avat.svg":
+/*!*********************************!*\
+  !*** ./src/assets/img/avat.svg ***!
+  \*********************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/avat.a7a86e33.svg\";\n\n//# sourceURL=webpack://legends_game/./src/assets/img/avat.svg?");
+
+/***/ }),
+
 /***/ "./src/assets/img/crown-4697.svg":
 /*!***************************************!*\
   !*** ./src/assets/img/crown-4697.svg ***!
@@ -1047,6 +1057,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"img/crown-4697.87cacf4e.svg\";\n\n//# sourceURL=webpack://legends_game/./src/assets/img/crown-4697.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/list.svg":
+/*!*********************************!*\
+  !*** ./src/assets/img/list.svg ***!
+  \*********************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/list.0f90ff4b.svg\";\n\n//# sourceURL=webpack://legends_game/./src/assets/img/list.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/wallet.svg":
+/*!***********************************!*\
+  !*** ./src/assets/img/wallet.svg ***!
+  \***********************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/wallet.b105caca.svg\";\n\n//# sourceURL=webpack://legends_game/./src/assets/img/wallet.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/wayroad.svg":
+/*!************************************!*\
+  !*** ./src/assets/img/wayroad.svg ***!
+  \************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/wayroad.3309f8bb.svg\";\n\n//# sourceURL=webpack://legends_game/./src/assets/img/wayroad.svg?");
 
 /***/ })
 
