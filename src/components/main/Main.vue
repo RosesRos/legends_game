@@ -7,7 +7,13 @@
                 </div>
             </div>
         </section>
-        <section class="section"></section>
+        <section class="section">
+            <div class="container">
+                <div class="section_inner">
+                    <MainControls />
+                </div>
+            </div>
+        </section>
     </article>
     <article class="article">
         <section class="section"></section>
@@ -17,11 +23,13 @@
 
 <script>
     import BannerVue from './Banner.vue';
+    import MainControls from './MainControls';
 
     export default {
         name: 'MainVue',
         components: {
             BannerVue,
+            MainControls,
         }
     }
 </script>
@@ -29,8 +37,8 @@
 <style lang="less">
     .section {
         overflow: hidden;
-        &_inner {
-            padding-top: 7rem;
+        &:nth-child(2) {
+            margin-top: -1rem;
         }
     }
 </style>

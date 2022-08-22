@@ -47,6 +47,7 @@
 
     .banner {
         margin-top: 2rem;
+        padding-top: 7rem;
         &_inner {
             background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)),
             url('../../assets/img/mun2.jpg');
@@ -113,7 +114,7 @@
                 padding: 0.8rem 8rem;
                 background-image: var(--btnBackground);
                 border: none;
-                border-radius: 2rem;
+                border-radius: 5rem;
                 font-family: @font_5;
                 font-size: 2.5rem;
                 text-align: center;
