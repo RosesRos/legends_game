@@ -16,20 +16,28 @@
         </section>
     </article>
     <article class="article">
-        <section class="section"></section>
-        <section class="section"></section>
+        <section class="section">
+            <div class="container">
+                <div class="section_inner">
+                    <MainInfo />
+                </div>
+            </div>
+        </section>
     </article>
 </template>
 
 <script>
     import BannerVue from './Banner.vue';
     import MainControls from './MainControls';
+    import MainInfo from './MainInfo';
+
 
     export default {
         name: 'MainVue',
         components: {
             BannerVue,
             MainControls,
+            MainInfo,
         }
     }
 </script>

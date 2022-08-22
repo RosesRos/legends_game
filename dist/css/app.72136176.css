@@ -528,7 +528,7 @@ video {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
@@ -624,7 +624,7 @@ body {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
@@ -737,7 +737,7 @@ body {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
@@ -885,7 +885,7 @@ body {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
@@ -1067,7 +1067,7 @@ header .nav_menu_link:hover::after {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
@@ -1251,7 +1251,7 @@ body[data-v-92f4ccfc] {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
@@ -1344,6 +1344,166 @@ body {
 .controls_info p {
   color: gray;
   font-size: 1.4rem;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/MainInfo.vue?vue&type=style&index=0&id=2ce9d146&lang=less ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bgImage {
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'UbuntuItalic';
+  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'IncosolataBold';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'IncosolataBlack';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'IncosolataLigth';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
+  font-weight: 300;
+}
+:root {
+  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
+  --logoBackground: #60BFCD;
+  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
+  --textColorOne: #E1B3EF;
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
+  --colorShadow: #fbfbfb;
+  --fontContent: 10px;
+  --fontBody: 16px;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-size: var(--fontContent);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'UbuntuRegular', sans-serif;
+  font-size: var(--fontBody);
+  -webkit-background-image: var(--bodyBackground);
+  -o-background-image: var(--bodyBackground);
+  -ms-background-image: var(--bodyBackground);
+  -moz-background-image: var(--bodyBackground);
+  background-image: var(--bodyBackground);
+}
+.container {
+  padding: 2rem 15rem;
+}
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
+}
+.infos_inner {
+  background-image: var(--headerBackground);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: 0.3rem solid rgba(204, 204, 204, 0.3);
+  border-radius: 2rem;
+  width: 100%;
+}
+.infos_info {
+  padding: 5rem 6rem;
+  text-align: center;
+}
+.infos_head_title {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 2;
+  text-shadow: none;
+  font-family: 'IncosolataBlack';
+}
+.infos_body_title {
+  line-height: 1;
+  text-shadow: none;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: var(--textBackground);
+  margin: 0.5rem 0;
+}
+.infos_body_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+.infos_body_items {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infos_body_items span {
+  padding: 1rem 0;
+}
+.infos_img {
+  padding: 2rem;
+  max-width: 10rem;
+  width: 100%;
+  border: 0.3rem solid rgba(114, 79, 137, 0.5);
+  border-radius: 100%;
+}
+.infos_footer_primary {
+  padding: 1rem 4rem;
+  max-width: 40rem;
+  width: 100%;
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  font-family: 'IncosolataBold';
+  font-size: 2rem;
+  text-align: center;
+  color: aliceblue;
+}
+.infos_footer_primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -1926,7 +2086,7 @@ video {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
   --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #371339 33.75%, #502751 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
