@@ -47,12 +47,9 @@
                 padding: 1rem 4rem;
                 max-width: 25rem;
                 width: 100%;
-                background-color: rgba(225, 179, 239, 0.2);
-                border: none;
-                border-radius: 5rem;
                 font-size: 2rem;
-                text-align: center;
                 position: relative;
+                .secondary();
                 &::after {
                     display: block;
                     content: '';
@@ -74,12 +71,9 @@
                 padding: 1rem 4rem;
                 max-width: 25rem;
                 width: 100%;
-                background-color: rgba(225, 179, 239, 0.2);
-                border: none;
-                border-radius: 5rem;
                 font-size: 2rem;
-                text-align: center;
                 position: relative;
+                .secondary();
                 &::after {
                     display: block;
                     content: '';

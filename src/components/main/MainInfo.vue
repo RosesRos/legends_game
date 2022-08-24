@@ -122,15 +122,8 @@
                 padding: 1rem 4rem;
                 max-width: 40rem;
                 width: 100%;
-                background-image: var(--btnBackground);
-                border: none;
-                border-radius: 5rem;
                 font-size: 2rem;
-                text-align: center;
-                color: aliceblue;
-                &:hover {
-                    background-image: linear-gradient(90deg, #689DB2 0%,  #678ACC 100%);
-                }
+                .primary();
             }
         }
     }

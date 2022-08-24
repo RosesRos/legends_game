@@ -489,6 +489,30 @@ video {
   -ms-background-size: cover;
   background-size: cover;
 }
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
 @font-face {
   font-family: 'UbuntuBold';
   src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
@@ -584,6 +608,30 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -697,6 +745,30 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -845,6 +917,30 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -1029,6 +1125,30 @@ header .nav_menu_link:hover::after {
   -ms-background-size: cover;
   background-size: cover;
 }
+.primary[data-v-92f4ccfc] {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary[data-v-92f4ccfc]:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary[data-v-92f4ccfc] {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary[data-v-92f4ccfc]:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
 @font-face {
   font-family: 'UbuntuBold';
   src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
@@ -1184,10 +1304,10 @@ body[data-v-92f4ccfc] {
 }
 .banner_btn_primary[data-v-92f4ccfc] {
   padding: 0.8rem 8rem;
+  font-size: 2rem;
   background-image: var(--btnBackground);
   border: none;
   border-radius: 5rem;
-  font-size: 2rem;
   text-align: center;
   color: aliceblue;
 }
@@ -1211,6 +1331,30 @@ body[data-v-92f4ccfc] {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -1299,16 +1443,22 @@ body {
 }
 .controls_btn {
   padding: 1rem 3rem;
+  max-width: 20rem;
+  width: 100%;
+  font-family: 'IncosolataBold';
+  font-weight: 550;
   cursor: pointer;
   background-color: rgba(225, 179, 239, 0.2);
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
   text-align: center;
-  max-width: 20rem;
-  width: 100%;
+  border: none;
   border-radius: 5rem;
-  font-family: 'IncosolataBold';
-  font-weight: 550;
+}
+.controls_btn:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 .controls_btn:nth-child(1) {
   background-color: rgba(117, 59, 139, 0.6);
@@ -1321,19 +1471,14 @@ body {
           backdrop-filter: none;
   background-color: #753b8b;
 }
-.controls_btn:hover {
-  -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-  background-color: #753b8b;
-}
 .controls_btn_primary {
   padding: 0.4rem 4rem;
   max-width: 20rem;
   width: 100%;
+  font-size: 2rem;
   background-image: var(--btnBackground);
   border: none;
   border-radius: 5rem;
-  font-size: 2rem;
   text-align: center;
   color: aliceblue;
 }
@@ -1361,6 +1506,30 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -1455,12 +1624,20 @@ body {
   padding: 1rem 4rem;
   max-width: 25rem;
   width: 100%;
+  font-size: 2rem;
+  position: relative;
+  cursor: pointer;
   background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
   border: none;
   border-radius: 5rem;
-  font-size: 2rem;
-  text-align: center;
-  position: relative;
+}
+.infos_head_btnOne:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 .infos_head_btnOne::after {
   display: block;
@@ -1494,12 +1671,20 @@ body {
   padding: 1rem 4rem;
   max-width: 25rem;
   width: 100%;
+  font-size: 2rem;
+  position: relative;
+  cursor: pointer;
   background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
   border: none;
   border-radius: 5rem;
-  font-size: 2rem;
-  text-align: center;
-  position: relative;
+}
+.infos_head_btnTwo:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 .infos_head_btnTwo::after {
   display: block;
@@ -1569,6 +1754,30 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -1709,10 +1918,10 @@ body {
   padding: 1rem 4rem;
   max-width: 40rem;
   width: 100%;
+  font-size: 2rem;
   background-image: var(--btnBackground);
   border: none;
   border-radius: 5rem;
-  font-size: 2rem;
   text-align: center;
   color: aliceblue;
 }
@@ -2260,6 +2469,30 @@ video {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 @font-face {
   font-family: 'UbuntuBold';
