@@ -489,6 +489,16 @@ video {
   -ms-background-size: cover;
   background-size: cover;
 }
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
 @font-face {
   font-family: 'UbuntuBold';
   src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
@@ -584,6 +594,16 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -697,6 +717,16 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -845,6 +875,16 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -1029,6 +1069,16 @@ header .nav_menu_link:hover::after {
   -ms-background-size: cover;
   background-size: cover;
 }
+.primary[data-v-92f4ccfc] {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary[data-v-92f4ccfc]:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
 @font-face {
   font-family: 'UbuntuBold';
   src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
@@ -1184,10 +1234,10 @@ body[data-v-92f4ccfc] {
 }
 .banner_btn_primary[data-v-92f4ccfc] {
   padding: 0.8rem 8rem;
+  font-size: 2rem;
   background-image: var(--btnBackground);
   border: none;
   border-radius: 5rem;
-  font-size: 2rem;
   text-align: center;
   color: aliceblue;
 }
@@ -1211,6 +1261,16 @@ body[data-v-92f4ccfc] {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -1361,6 +1421,16 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -1569,6 +1639,16 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 @font-face {
   font-family: 'UbuntuBold';
@@ -2260,6 +2340,16 @@ video {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
 }
 @font-face {
   font-family: 'UbuntuBold';
