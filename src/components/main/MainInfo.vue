@@ -70,15 +70,18 @@
 
         }
         &_head {
+            padding-bottom: 3rem;
             &_title {
                 font-size: 6rem;
                 font-weight: 600;
                 line-height: 2;
                 text-shadow: none;
                 font-family: @font_6;
+                text-shadow: 1px 3px 7px #d64ee5;
             }
         }
         &_body {
+            padding-top: 2rem;
             &_title {
                 line-height: 1;
                 text-shadow: none;

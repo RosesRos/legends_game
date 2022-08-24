@@ -1,8 +1,14 @@
 <template>
     <div class="infos_head_btns">
-        <button :class="{infos_head_btn: btns}">Platinum III <i class="btns_icon"></i></button>
-        <span>=</span>
-        <button :class="{infos_head_btn: btns}">Challenger V <i class="btns_icon"></i></button>
+        <div class="infos_head_list">
+            <p>Current League</p>
+            <button :class="{infos_head_btnOne: btns}">Platinum III <i class="btns_icon"></i></button>
+        </div>
+        <span class="infos_head_equ">=</span>
+        <div class="infos_head_list">
+            <p>Desired League</p>
+            <button :class="{infos_head_btnTwo: btns}">Challenger V <i class="btns_icon"></i></button>
+        </div>
     </div>
 </template>
 
@@ -23,28 +29,77 @@
 
     .infos {
         &_head {
+            &_list {
+                max-width: 25rem;
+                width: 100%;
+                p {
+                    color: gray;
+                    font-size: 1.4rem;
+                 }
+            }
             &_btns {
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
                 flex-wrap: wrap;
             }
-            &_btn {
+            &_btnOne {
                 padding: 1rem 4rem;
-                max-width: 30rem;
+                max-width: 25rem;
                 width: 100%;
                 background-color: rgba(225, 179, 239, 0.2);
                 border: none;
                 border-radius: 5rem;
                 font-size: 2rem;
                 text-align: center;
-                // display: flex;
-                // justify-content: space-between;
-                // align-items: center;
+                position: relative;
+                &::after {
+                    display: block;
+                    content: '';
+                    background-image: url('../../../assets/img/cra1.png');
+                    .bgImage();
+                    width: 8rem;
+                    height: 10rem;
+                    position: absolute;
+                    left: -3rem;
+                    top: calc(50% - 5rem);
+                    z-index: 5;
+                }
                 &:hover {
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
                 }
+            }
+            &_btnTwo {
+                padding: 1rem 4rem;
+                max-width: 25rem;
+                width: 100%;
+                background-color: rgba(225, 179, 239, 0.2);
+                border: none;
+                border-radius: 5rem;
+                font-size: 2rem;
+                text-align: center;
+                position: relative;
+                &::after {
+                    display: block;
+                    content: '';
+                    background-image: url('../../../assets/img/cra2.png');
+                    .bgImage();
+                    width: 8rem;
+                    height: 10rem;
+                    position: absolute;
+                    left: -3rem;
+                    top: calc(50% - 5rem);
+                    z-index: 5;
+                }
+                &:hover {
+                    backdrop-filter: none;
+                    background-color: rgba(117, 59, 139, 1);
+                }
+            }
+            &_equ {
+                font-size: 3rem;
+                color: aliceblue;
             }
         }
     }
@@ -53,10 +108,10 @@
         &_icon {
             background-image: url('../../../assets/img/arrow.svg');
             .bgImage();
-            width: 2rem;
-            height: 2rem;
+            width: 1.6rem;
+            height: 1.6rem;
             float: right;
-            margin-top: 0.5rem;
+            margin-top: 0.6rem;
         }
     }
 
