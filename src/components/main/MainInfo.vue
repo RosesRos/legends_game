@@ -5,6 +5,7 @@
                 <div class="infos_info">
                     <div class="infos_head">
                         <title-vue class="infos_head_title" title="Boosting Calculator"></title-vue>
+                        <InfoSubButton />
                     </div>
                     <div class="infos_body">
                         <title-vue class="infos_body_title" title="*Aproximately 1-2 Months Training & Playing"></title-vue>
@@ -32,6 +33,7 @@
     import { Icons } from './DataMain';
     import TitleVue from '../subComponents/Title';
     import ButtonVue from '../subComponents/Button.vue';
+    import InfoSubButton from './subMain/InfoSubButton.vue';
 
 
     export default {
@@ -44,7 +46,8 @@
         },
         components: {
             TitleVue,
-            ButtonVue
+            ButtonVue,
+            InfoSubButton,
         }
     }
 </script>
@@ -84,6 +87,7 @@
                 background-clip: text;
                 background-image: var(--textBackground);
                 margin: 0.5rem 0;
+                font-weight: 600;
             }
             &_content {
                 display: flex;
@@ -118,7 +122,6 @@
                 background-image: var(--btnBackground);
                 border: none;
                 border-radius: 5rem;
-                font-family: @font_5;
                 font-size: 2rem;
                 text-align: center;
                 color: aliceblue;

@@ -115,8 +115,7 @@
                 background-image: var(--btnBackground);
                 border: none;
                 border-radius: 5rem;
-                font-family: @font_5;
-                font-size: 2.5rem;
+                font-size: 2rem;
                 text-align: center;
                 color: aliceblue;
                 &:hover {

@@ -59,6 +59,7 @@
             .bgImage();
             border-bottom: 1px solid;
             border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f,) 47% 0%;
+            z-index: 10;
             &_list {
                 padding: 2rem 15rem;
                 display: flex;
