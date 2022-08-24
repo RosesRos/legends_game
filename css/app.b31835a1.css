@@ -1437,26 +1437,101 @@ body {
     padding: 2rem 5rem;
 }
 }
+.infos_head_list {
+  max-width: 25rem;
+  width: 100%;
+}
+.infos_head_list p {
+  color: gray;
+  font-size: 1.4rem;
+}
 .infos_head_btns {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
-.infos_head_btn {
+.infos_head_btnOne {
   padding: 1rem 4rem;
-  max-width: 30rem;
+  max-width: 25rem;
   width: 100%;
   background-color: rgba(225, 179, 239, 0.2);
   border: none;
   border-radius: 5rem;
   font-size: 2rem;
   text-align: center;
+  position: relative;
 }
-.infos_head_btn:hover {
+.infos_head_btnOne::after {
+  display: block;
+  content: '';
+  background-image: url(/legends_game/img/cra1.c41ddbff.png);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+  width: 8rem;
+  height: 10rem;
+  position: absolute;
+  left: -3rem;
+  top: calc(50% - 5rem);
+  z-index: 5;
+}
+.infos_head_btnOne:hover {
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
   background-color: #753b8b;
+}
+.infos_head_btnTwo {
+  padding: 1rem 4rem;
+  max-width: 25rem;
+  width: 100%;
+  background-color: rgba(225, 179, 239, 0.2);
+  border: none;
+  border-radius: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+}
+.infos_head_btnTwo::after {
+  display: block;
+  content: '';
+  background-image: url(/legends_game/img/cra2.ab066089.png);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+  width: 8rem;
+  height: 10rem;
+  position: absolute;
+  left: -3rem;
+  top: calc(50% - 5rem);
+  z-index: 5;
+}
+.infos_head_btnTwo:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
+.infos_head_equ {
+  font-size: 3rem;
+  color: aliceblue;
 }
 .btns_icon {
   background-image: url(/legends_game/img/arrow.d72dab8d.svg);
@@ -1472,10 +1547,10 @@ body {
   background-repeat: no-repeat;
   -ms-background-size: cover;
   background-size: cover;
-  width: 2rem;
-  height: 2rem;
+  width: 1.6rem;
+  height: 1.6rem;
   float: right;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -1582,12 +1657,19 @@ body {
   padding: 5rem 6rem;
   text-align: center;
 }
+.infos_head {
+  padding-bottom: 3rem;
+}
 .infos_head_title {
   font-size: 6rem;
   font-weight: 600;
   line-height: 2;
   text-shadow: none;
   font-family: 'IncosolataBlack';
+  text-shadow: 1px 3px 7px #d64ee5;
+}
+.infos_body {
+  padding-top: 2rem;
 }
 .infos_body_title {
   line-height: 1;
