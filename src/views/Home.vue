@@ -7,20 +7,24 @@
     <main class="main">
         <Main-vue/>
     </main>
-    <footer>
-        
+    <footer class="footer">
+        <div class="footer_inner">
+            <footer-vue/>
+        </div>
     </footer>
 </template>
 
 <script>
     import HeaderVue from '@/components/header/Header';
     import MainVue from '@/components/main/Main.vue';
+    import FooterVue from '@/components/footer/Footer.vue';
 
     export default {
         name: 'HomeVue',
         components: {
             HeaderVue,
-            MainVue
+            MainVue,
+            FooterVue
         }
     }
 </script>
