@@ -6,12 +6,6 @@
 
 export default {
   name: 'App',
-  
-  // computed: {
-  //   username() {
-  //     return this.$route.params.username
-  //   },
-  // },
 }
 </script>
 
