@@ -2084,6 +2084,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 1rem 3rem;
+  padding-bottom: 0;
 }
 .footer_head {
   max-width: 10rem;
@@ -2118,6 +2119,11 @@ body {
   width: 100%;
   text-align: center;
   cursor: pointer;
+}
+.footer_menu_item:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
 }
 
 /*!************************************************************************************************************************************************************************************************************************************!*\

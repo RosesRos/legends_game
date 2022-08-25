@@ -59,6 +59,7 @@
             align-items: center;
             flex-wrap: wrap;
             padding: 1rem 3rem;
+            padding-bottom: 0;
         }
         &_head {
             max-width: 10rem;
@@ -94,6 +95,10 @@
                 width: 100%;
                 text-align: center;
                 cursor: pointer;
+                &:hover {
+                    backdrop-filter: none;
+                    background-color: rgba(117, 59, 139, 1);
+                }
             }
         }
     }
