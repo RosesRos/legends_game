@@ -495,6 +495,7 @@ video {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -507,6 +508,7 @@ video {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -557,7 +559,7 @@ video {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -615,6 +617,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -627,6 +630,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -677,7 +681,7 @@ body {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -726,7 +730,7 @@ body {
   font-size: 2rem;
   font-family: 'UbuntuBold';
   font-weight: 500;
-  text-shadow: 3px 3px 10px var(--colorShadow);
+  text-shadow: 1px 3px 7px var(--colorShadow);
 }
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -752,6 +756,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -764,6 +769,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -814,7 +820,7 @@ body {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -855,6 +861,7 @@ body {
   font-family: 'IncosolataBold';
   display: flex;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 .nav_control_btn:hover {
   -webkit-backdrop-filter: none;
@@ -924,6 +931,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -936,6 +944,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -986,7 +995,7 @@ body {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -1131,6 +1140,7 @@ header .nav_menu_link:hover::after {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary[data-v-92f4ccfc]:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1143,6 +1153,7 @@ header .nav_menu_link:hover::after {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary[data-v-92f4ccfc]:hover {
   -webkit-backdrop-filter: none;
@@ -1193,7 +1204,7 @@ header .nav_menu_link:hover::after {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -1264,7 +1275,7 @@ body[data-v-92f4ccfc] {
   font-family: 'IncosolataBlack';
   font-size: 4rem;
   font-style: normal;
-  text-shadow: 3px 3px 10px var(--colorShadow);
+  text-shadow: 1px 3px 7px var(--colorShadow);
 }
 .banner_title[data-v-92f4ccfc]:nth-child(2) {
   font-size: 6rem;
@@ -1310,6 +1321,7 @@ body[data-v-92f4ccfc] {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .banner_btn_primary[data-v-92f4ccfc]:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1338,6 +1350,7 @@ body[data-v-92f4ccfc] {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1350,6 +1363,7 @@ body[data-v-92f4ccfc] {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -1400,7 +1414,7 @@ body[data-v-92f4ccfc] {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -1454,6 +1468,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .controls_btn:hover {
   -webkit-backdrop-filter: none;
@@ -1465,6 +1480,7 @@ body {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   border: none;
+  transition: all 0.3s ease-in-out;
 }
 .controls_btn:nth-child(1):hover {
   -webkit-backdrop-filter: none;
@@ -1481,6 +1497,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .controls_btn_primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1513,6 +1530,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1525,6 +1543,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -1575,7 +1594,7 @@ body {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -1633,6 +1652,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .infos_head_btnOne:hover {
   -webkit-backdrop-filter: none;
@@ -1680,6 +1700,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .infos_head_btnTwo:hover {
   -webkit-backdrop-filter: none;
@@ -1761,6 +1782,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1773,6 +1795,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -1823,7 +1846,7 @@ body {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -1924,6 +1947,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .infos_footer_primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1962,6 +1986,7 @@ body {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1974,6 +1999,7 @@ body {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -2024,7 +2050,7 @@ body {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
@@ -2119,6 +2145,7 @@ body {
   width: 100%;
   text-align: center;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .footer_menu_item:hover {
   -webkit-backdrop-filter: none;
@@ -2663,6 +2690,7 @@ video {
   border-radius: 5rem;
   text-align: center;
   color: aliceblue;
+  transition: all 0.3s ease-in-out;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -2675,6 +2703,7 @@ video {
   text-align: center;
   border: none;
   border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 .secondary:hover {
   -webkit-backdrop-filter: none;
@@ -2725,7 +2754,7 @@ video {
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
   --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #fbfbfb;
+  --colorShadow: #d64ee5;
   --fontContent: 10px;
   --fontBody: 16px;
 }
