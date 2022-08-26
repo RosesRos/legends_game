@@ -12,7 +12,7 @@
                 <div class="controls_info">
                     <p>Last Order Platinum | to Diamond Iv.4</p>
                 </div>
-                <router-link to="support">
+                <router-link data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="1500" to="support">
                     <button-vue class="controls_btn_primary" v-slot="{text}" button="24/7 Support">
                     {{text}}
                     </button-vue>

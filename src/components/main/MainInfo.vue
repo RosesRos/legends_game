@@ -1,6 +1,6 @@
 <template>
     <div :class="{infos: info}">
-        <div class="infos_inner">
+        <div class="infos_inner" data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="2500">
             <div class="infos_block">
                 <div class="infos_info">
                     <div class="infos_head">
@@ -9,7 +9,7 @@
                     </div>
                     <div class="infos_body">
                         <title-vue class="infos_body_title" title="*Aproximately 1-2 Months Training & Playing"></title-vue>
-                        <div class="infos_body_content">
+                        <div class="infos_body_content" data-aos="fade-up" data-aos-duration="3300" data-aos-easing="linear">
                             <div class="infos_body_items" v-for="icon in icons" :key="icon.id">
                                 <div class="infos_img">
                                     <img :src="icon.img" :alt="icon.alt">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="infos_footer">
-                        <router-link to="games">
+                        <router-link to="games" data-aos="fade-down-left" data-aos-anchor-placement="top-bottom" data-aos-duration="4900" data-aos-easing="linear">
                             <button-vue class="infos_footer_primary" v-slot="{text}"  button="Book Our Service">
                             {{ text }}
                             </button-vue>

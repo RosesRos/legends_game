@@ -1,15 +1,15 @@
 <template>
     <div :class="{banner: bann}">
-        <div class="banner_inner" data-aos="zoom-in" ata-aos-offset="200" data-aos-delay="50" data-aos-duration="3000" data-aos-easing="ease-in-out">
+        <div class="banner_inner" data-aos="zoom-in" ata-aos-offset="200" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <div class="banner_block">
                 <div class="banner_info">
                     <title-vue class="banner_title" title="The Leading"></title-vue>
                     <title-vue class="banner_title" title="League of Legends"></title-vue>
                     <title-vue class="banner_title" title="Boosting Platform"></title-vue>
                     <p class="banner_description">Sunt ipsum aliquip est occaecat labore. Ullamco minim laborum consectetur nostrud consequat Lorem minim esse mollit exercitati.</p>
-                    <div v-bind:class="{banner_btn: info}">
+                    <div v-bind:class="{banner_btn: info}" data-aos="flip-down" ata-aos-offset="300" data-aos-delay="70" data-aos-duration="3000" data-aos-easing="ease-in-out">
                         <title-vue class="banner_btn_title" title="League of Legends"></title-vue>
-                        <div class="banner_primary">
+                        <div class="banner_primary" data-aos="zoom-in" ata-aos-offset="200" data-aos-delay="40" data-aos-duration="3500" data-aos-easing="ease">
                             <router-link to="price">
                                 <button-vue class="banner_btn_primary" v-slot="slotProps" button="Calculate Boots Prices">
                                 {{slotProps.text}}

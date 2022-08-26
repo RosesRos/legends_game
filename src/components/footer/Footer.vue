@@ -2,7 +2,7 @@
     <div class="footer_content">
         <div class="container">
             <div class="footer_main">
-                <div class="footer_head">
+                <div class="footer_head" data-aos="fade-right" data-aos-duration="4300" data-aos-easing="linear">
                     <img class="footer_logo" :src="Crack4" alt="Logo Footer">
                 </div>
                 <div class="footer_body">
@@ -14,7 +14,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer_foot">
+                <div class="footer_foot" data-aos="fade-left" data-aos-duration="4300" data-aos-easing="linear">
                     <img class="footer_logo" :src="Crack5" alt="Logo Footer">
                  </div>
             </div>
