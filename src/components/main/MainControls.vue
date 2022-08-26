@@ -3,7 +3,9 @@
         <div class="controls_inner">
             <div class="controls_block">
                 <div class="controls_btn" v-for="data in datas" :key="data.id">
-                    <button-vue :button="data.title"/>
+                    <button-vue v-slot="{text}" :button="data.title">
+                    {{text}}
+                    </button-vue>
                 </div>
             </div>
             <div class="controls_block">
@@ -11,7 +13,9 @@
                     <p>Last Order Platinum | to Diamond Iv.4</p>
                 </div>
                 <router-link to="support">
-                    <button-vue class="controls_btn_primary" button="24/7 Support"/>
+                    <button-vue class="controls_btn_primary" v-slot="{text}" button="24/7 Support">
+                    {{text}}
+                    </button-vue>
                 </router-link>
             </div>
         </div>

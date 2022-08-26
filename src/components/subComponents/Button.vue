@@ -1,5 +1,7 @@
 <template>
-     <button>{{button}}</button>
+    <button>
+        <slot :text="button"></slot>
+    </button>
 </template>
 
 <script>

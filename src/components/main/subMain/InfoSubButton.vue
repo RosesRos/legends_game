@@ -2,23 +2,35 @@
     <div class="infos_head_btns">
         <div class="infos_head_list">
             <p>Current League</p>
-            <button :class="{infos_head_btnOne: btns}">Platinum III <i class="btns_icon"></i></button>
+            <ButtonVue :class="{infos_head_btnOne: btns}" v-slot="{text}" button="Platinum III"> 
+                {{text}} 
+                <i class="btns_icon"></i>
+            </ButtonVue>
         </div>
         <span class="infos_head_equ">=</span>
         <div class="infos_head_list">
             <p>Desired League</p>
-            <button :class="{infos_head_btnTwo: btns}">Challenger V <i class="btns_icon"></i></button>
+            <ButtonVue :class="{infos_head_btnTwo: btns}" v-slot="{text}" button="Challenger V">
+                {{text}} 
+                <i class="btns_icon"></i>
+            </ButtonVue>
         </div>
     </div>
 </template>
 
 <script>
+    import ButtonVue from '@/components/subComponents/Button';
+
+
     export default {
         name: 'InfoSubButton',
         data() {
             return {
                 btns: true
             }
+        },
+        components: {
+            ButtonVue,
         }
         
     }

@@ -11,7 +11,9 @@
                         <title-vue class="banner_btn_title" title="League of Legends"></title-vue>
                         <div class="banner_primary">
                             <router-link to="price">
-                                <button-vue class="banner_btn_primary" button="Calculate Boots Prices"/>
+                                <button-vue class="banner_btn_primary" v-slot="slotProps" button="Calculate Boots Prices">
+                                {{slotProps.text}}
+                                </button-vue>
                             </router-link>
                         </div>
                     </div>

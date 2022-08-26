@@ -20,7 +20,9 @@
                     </div>
                     <div class="infos_footer">
                         <router-link to="games">
-                            <button-vue class="infos_footer_primary" button="Book Our Service"/>
+                            <button-vue class="infos_footer_primary" v-slot="{text}"  button="Book Our Service">
+                            {{ text }}
+                            </button-vue>
                         </router-link>
                     </div>
                 </div>
