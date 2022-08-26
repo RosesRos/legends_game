@@ -550,6 +550,35 @@ video {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -557,7 +586,7 @@ video {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -672,6 +701,35 @@ body {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -679,7 +737,7 @@ body {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -811,6 +869,35 @@ body {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -818,7 +905,7 @@ body {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -986,6 +1073,35 @@ body {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -993,7 +1109,7 @@ body {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -1195,6 +1311,35 @@ header .nav_menu_link:hover::after {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText[data-v-92f4ccfc] {
+  -webkit-animation: slidText-92f4ccfc 6s linear infinite;
+  animation: slidText-92f4ccfc 6s linear infinite;
+}
+@-webkit-keyframes slidText-92f4ccfc {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText-92f4ccfc {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 [data-v-92f4ccfc]:root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -1202,7 +1347,7 @@ header .nav_menu_link:hover::after {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -1286,6 +1431,22 @@ body[data-v-92f4ccfc] {
   -webkit-background-clip: text;
   background-clip: text;
   background-image: var(--textBackground);
+  position: relative;
+}
+.banner_title[data-v-92f4ccfc]:nth-child(2)::before {
+  content: 'League of Legends';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: var(--textBackground);
+  -webkit-animation: slidText-92f4ccfc 6s linear infinite;
+  animation: slidText-92f4ccfc 6s linear infinite;
 }
 .banner_title[data-v-92f4ccfc]:nth-child(3) {
   font-size: 7rem;
@@ -1405,6 +1566,35 @@ body[data-v-92f4ccfc] {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -1412,7 +1602,7 @@ body[data-v-92f4ccfc] {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -1585,6 +1775,35 @@ body {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -1592,7 +1811,7 @@ body {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -1837,6 +2056,35 @@ body {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -1844,7 +2092,7 @@ body {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -2041,6 +2289,35 @@ body {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -2048,7 +2325,7 @@ body {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
@@ -2145,12 +2422,30 @@ body {
   width: 100%;
   text-align: center;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
-.footer_menu_item:hover {
+.footer_menu_item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -5rem;
+  width: 0;
+  height: 100%;
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
   background-color: #753b8b;
+  transform: skewX(45deg);
+  transition: width 1s ease-in-out;
+}
+.footer_menu_item:hover::before {
+  width: 150%;
+}
+.footer_menu_link {
+  position: relative;
+  z-index: 10;
 }
 
 /*!************************************************************************************************************************************************************************************************************************************!*\
@@ -2745,6 +3040,35 @@ video {
   src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
   font-weight: 300;
 }
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+  0% {
+    -webkti-width: 0;
+    width: 0;
+  }
+  50% {
+    -webkit-width: 100%;
+    width: 100%;
+  }
+  100% {
+    -webkit-width: 100%;
+    width: 100%;
+  }
+}
+@keyframes slidText {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
 :root {
   --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
   --logoBackground: #60BFCD;
@@ -2752,7 +3076,7 @@ video {
   --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
   --textColorOne: #E1B3EF;
   --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #8ED5F1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
   --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
   --colorShadow: #d64ee5;
   --fontContent: 10px;
