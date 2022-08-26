@@ -45,6 +45,7 @@
                 font-family: @font_5;
                 display: flex;
                 align-items: center;
+                transition: all .3s ease-in-out;
                 &:hover {
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
