@@ -63,6 +63,7 @@
                 background-color: rgba(117, 59, 139, 0.6);
                 backdrop-filter: blur(10px);
                 border: none;
+                transition: all .3s ease-in-out;
                 &:hover {
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);

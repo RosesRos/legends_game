@@ -95,6 +95,7 @@
                 width: 100%;
                 text-align: center;
                 cursor: pointer;
+                transition: all .3s ease-in-out;
                 &:hover {
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
