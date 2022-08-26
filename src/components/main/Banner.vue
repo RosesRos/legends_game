@@ -1,6 +1,6 @@
 <template>
     <div :class="{banner: bann}">
-        <div class="banner_inner">
+        <div class="banner_inner" data-aos="zoom-in" ata-aos-offset="200" data-aos-delay="50" data-aos-duration="3000" data-aos-easing="ease-in-out">
             <div class="banner_block">
                 <div class="banner_info">
                     <title-vue class="banner_title" title="The Leading"></title-vue>
