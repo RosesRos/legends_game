@@ -95,11 +95,29 @@
                 width: 100%;
                 text-align: center;
                 cursor: pointer;
+                position: relative;
+                overflow: hidden;
                 transition: all .3s ease-in-out;
-                &:hover {
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: -5rem;
+                    width: 0;
+                    height: 100%;
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
+                    transform: skewX(45deg);
+                    transition: width 1s ease-in-out;
                 }
+                &:hover::before {
+                    width: 150%;
+                }
+            }
+            &_link {
+                position: relative;
+                z-index: 10;
             }
         }
     }

@@ -85,6 +85,21 @@
                 -webkit-background-clip: text;
                 background-clip: text;
                 background-image: var(--textBackground);
+                position: relative;
+                &::before {
+                    content: 'League of Legends';
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    overflow: hidden;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    background-image: var(--textBackground);
+                    .slidText();
+                }
             }
             &:nth-child(3) {
                 font-size: 7rem;
