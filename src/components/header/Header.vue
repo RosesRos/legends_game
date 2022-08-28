@@ -1,14 +1,46 @@
 <template>
     <nav class="nav">
         <div class="nav_list">
-            <slot name="header"></slot>
+            <div class="nav_content">
+                <burger-vue />
+            </div>
+            <div class="nav_content">
+                <LogoVue></LogoVue>
+            </div>
+            <div class="nav_content">
+                <div class="nav_menu">
+                    <ul class="nav_menu_items">
+                        <li class="nav_menu_item" v-for="item in items" :key="item.id">
+                            <router-link class="nav_menu_link" :to="item.rout">{{item.link}}</router-link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav_content">
+                <HeaderButton />
+            </div>
         </div>
     </nav>
 </template>
 
-<script>    
+<script>
+    import { Data } from './DataMenu';
+    import LogoVue from './Logo';
+    import HeaderButton from './HeaderButton';
+    import BurgerVue from './Burger.vue';
+    
     export default {
         name: 'HeaderVue',
+        data() {
+            return {
+                items: Data
+            }
+        },
+        components: {
+            LogoVue,
+            HeaderButton,
+            BurgerVue
+        }
     }
 </script>
 

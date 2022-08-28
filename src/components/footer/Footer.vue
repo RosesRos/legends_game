@@ -1,15 +1,41 @@
 <template>
     <div class="footer_content">
         <div class="container">
-            <slot name="footer"></slot>
+            <div class="footer_main">
+                <div class="footer_head" data-aos="fade-right" data-aos-duration="4300" data-aos-easing="linear">
+                    <img class="footer_logo" :src="Crack4" alt="Logo Footer">
+                </div>
+                <div class="footer_body">
+                    <div class="footer_menu">
+                        <ul class="footer_menu_items">
+                            <li class="footer_menu_item" v-for="item in items" v-bind:key="item.id">
+                                <router-link class="footer_menu_link" :to="item.rout">{{item.link}}</router-link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_foot" data-aos="fade-left" data-aos-duration="4300" data-aos-easing="linear">
+                    <img class="footer_logo" :src="Crack5" alt="Logo Footer">
+                 </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-    
+    import { Data } from '../header/DataMenu';
+    import Crack4 from '../../assets/img/cra4.png';
+    import Crack5 from '../../assets/img/cra5.png';
+
     export default {
         name: 'FooterVue',
+        data() {
+            return {
+                Crack4,
+                Crack5,
+                items: Data
+            }
+        }
     }
 </script>
 
