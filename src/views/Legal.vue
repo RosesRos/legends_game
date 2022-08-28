@@ -5,7 +5,7 @@
         </div>
     </header>
     <main class="main">
-        <Main-vue/>
+        <MainLegal/>
     </main>
     <footer class="footer">
         <div class="footer_inner">
@@ -16,8 +16,8 @@
 
 <script>
   import HeaderVue from '@/components/header/Header';
-  import MainVue from '@/components/main/Main.vue';
   import FooterVue from '@/components/footer/Footer.vue';
+  import MainLegal from '@/components/main/MainLegal';
 
   
   export default {
@@ -29,8 +29,8 @@
     },
     components: {
       HeaderVue,
-      MainVue,
-      FooterVue
+      FooterVue,
+      MainLegal
     }
   }
 </script>

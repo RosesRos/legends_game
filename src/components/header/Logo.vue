@@ -1,11 +1,11 @@
 <template>
     <div class="nav_logo">
-            <router-link to="/">
+            <router-link class="nav_logo_item" to="/">
                 <div class="nav_logo_img">
                     <img v-bind:src="crown" alt="Logo App" />
                 </div>
+                <title-vue class="nav_logo_title" title="Boost Royal"></title-vue>
             </router-link>
-        <title-vue class="nav_logo_title" title="Boost Royal"></title-vue>
     </div>
 </template>
 
@@ -34,13 +34,18 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            &_item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
             &_img {
                 max-width: 4rem;
                 width: 60%;
                 background-color: var(--logoBackground);
                 padding: 1rem;
                 border-radius: 50%;
-                margin-right: 2rem;
+                margin-right: 1.5rem;
             }
             &_title {
                 color: var(--textColorOne);

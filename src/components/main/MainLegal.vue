@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="section_inner">
                     <div :class="{banner: bann}">
-                        <banner-vue class="banner_inner" data-aos="zoom-in" ata-aos-offset="200" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out"/>
+                        <banner-vue class="banner_inner2" data-aos="zoom-in" ata-aos-offset="200" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out"/>
                     </div>
                 </div>
             </div>
@@ -63,9 +63,9 @@
     .banner {
         margin-top: 2rem;
         padding-top: 7rem;
-        &_inner {
+        &_inner2 {
             background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)),
-            url('../../assets/img/mun2.jpg');
+            url('../../assets/img/mun1.jpeg');
             .bgImage();
             background-origin: border-box;
             background-clip: content-box, border-box;
