@@ -26,7 +26,7 @@ const AOS = Aos.init({
 });
 
 const AosInit = () => {
-    return AOS;
+  return AOS;
 }
 
 export default AosInit;
