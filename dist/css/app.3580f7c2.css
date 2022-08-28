@@ -623,6 +623,491 @@ body {
   color: var(--textColorOne);
 }
 
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/header/Header.vue?vue&type=style&index=0&id=ed558de2&lang=less ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bgImage {
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+  transition: all 0.3s ease-in-out;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'UbuntuItalic';
+  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'IncosolataBold';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'IncosolataBlack';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'IncosolataLigth';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
+  font-weight: 300;
+}
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
+:root {
+  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
+  --logoBackground: #60BFCD;
+  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
+  --textColorOne: #E1B3EF;
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
+  --colorShadow: #d64ee5;
+  --fontContent: 10px;
+  --fontBody: 16px;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-size: var(--fontContent);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'UbuntuRegular', sans-serif;
+  font-size: var(--fontBody);
+  -webkit-background-image: var(--bodyBackground);
+  -o-background-image: var(--bodyBackground);
+  -ms-background-image: var(--bodyBackground);
+  -moz-background-image: var(--bodyBackground);
+  background-image: var(--bodyBackground);
+}
+.container {
+  padding: 2rem 15rem;
+}
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
+}
+header {
+  overflow: hidden;
+}
+header .nav {
+  font-family: 'UbuntuBoldItalic';
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-image: var(--headerBackground);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+  border-bottom: 1px solid;
+  -o-border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
+     border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
+  z-index: 10;
+}
+header .nav_list {
+  padding: 2rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+header .nav_list {
+    padding: 2rem 5rem;
+}
+}
+header .nav_content {
+  display: flex;
+  justify-content: space-between;
+}
+header .nav_content:nth-child(1) {
+  display: none;
+}
+header .nav_menu {
+  padding-left: 10rem;
+}
+header .nav_menu_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav_menu_item {
+  padding: 1rem;
+  margin-right: 2rem;
+}
+header .nav_menu_link {
+  position: relative;
+  transition: all 0.2s linear;
+}
+header .nav_menu_link::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background: var(--textColorOne);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 0.2rem;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+header .nav_menu_link:hover::after {
+  opacity: 1;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/Main.vue?vue&type=style&index=0&id=61fb690f&lang=less ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.section {
+  overflow: hidden;
+}
+.section:nth-child(2) {
+  margin-top: -1rem;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/footer/Footer.vue?vue&type=style&index=0&id=c343a562&lang=less ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bgImage {
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+  transition: all 0.3s ease-in-out;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'UbuntuItalic';
+  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'IncosolataBold';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'IncosolataBlack';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'IncosolataLigth';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
+  font-weight: 300;
+}
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
+:root {
+  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
+  --logoBackground: #60BFCD;
+  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
+  --textColorOne: #E1B3EF;
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
+  --colorShadow: #d64ee5;
+  --fontContent: 10px;
+  --fontBody: 16px;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-size: var(--fontContent);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'UbuntuRegular', sans-serif;
+  font-size: var(--fontBody);
+  -webkit-background-image: var(--bodyBackground);
+  -o-background-image: var(--bodyBackground);
+  -ms-background-image: var(--bodyBackground);
+  -moz-background-image: var(--bodyBackground);
+  background-image: var(--bodyBackground);
+}
+.container {
+  padding: 2rem 15rem;
+}
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
+}
+.footer {
+  overflow: hidden;
+}
+.footer_content {
+  font-family: 'UbuntuBoldItalic';
+  overflow: hidden;
+  background-image: var(--headerBackground);
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+  border-top: 1px solid;
+  -o-border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
+     border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
+}
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+  padding-bottom: 0;
+}
+.footer_head {
+  max-width: 10rem;
+  width: 100%;
+  margin-left: 5rem;
+}
+.footer_foot {
+  max-width: 10rem;
+  width: 100%;
+  margin-right: 5rem;
+}
+.footer_logo {
+  width: 100%;
+}
+.footer_body {
+  max-width: 40rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer_menu_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.footer_menu_item {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border: 0.3rem solid rgba(114, 79, 137, 0.5);
+  max-width: 15rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.footer_menu_item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -5rem;
+  width: 0;
+  height: 100%;
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+  transform: skewX(45deg);
+  transition: width 1s ease-in-out;
+}
+.footer_menu_item:hover::before {
+  width: 150%;
+}
+.footer_menu_link {
+  position: relative;
+  z-index: 10;
+}
+
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/header/Logo.vue?vue&type=style&index=0&id=688defad&lang=less ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -993,244 +1478,6 @@ body {
 }
 .nav_burger_item:nth-child(3) {
   width: 60%;
-}
-
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/header/Header.vue?vue&type=style&index=0&id=ed558de2&lang=less ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.bgImage {
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
-}
-.primary {
-  background-image: var(--btnBackground);
-  border: none;
-  border-radius: 5rem;
-  text-align: center;
-  color: aliceblue;
-  transition: all 0.3s ease-in-out;
-}
-.primary:hover {
-  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
-}
-.secondary {
-  cursor: pointer;
-  background-color: rgba(225, 179, 239, 0.2);
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-  text-align: center;
-  border: none;
-  border-radius: 5rem;
-  transition: all 0.3s ease-in-out;
-}
-.secondary:hover {
-  -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-  background-color: #753b8b;
-}
-@font-face {
-  font-family: 'UbuntuBold';
-  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'UbuntuBoldItalic';
-  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'UbuntuItalic';
-  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'UbuntuRegular';
-  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'IncosolataBold';
-  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'IncosolataBlack';
-  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'IncosolataLigth';
-  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
-  font-weight: 300;
-}
-.slidText {
-  -webkit-animation: slidText 6s linear infinite;
-  animation: slidText 6s linear infinite;
-}
-@-webkit-keyframes slidText {
-0% {
-    -webkti-width: 0;
-    width: 0;
-}
-50% {
-    -webkit-width: 100%;
-    width: 100%;
-}
-100% {
-    -webkit-width: 100%;
-    width: 100%;
-}
-}
-@keyframes slidText {
-0% {
-    width: 0;
-}
-50% {
-    width: 100%;
-}
-100% {
-    width: 100%;
-}
-}
-:root {
-  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
-  --logoBackground: #60BFCD;
-  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
-  --textColorOne: #E1B3EF;
-  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #d64ee5;
-  --fontContent: 10px;
-  --fontBody: 16px;
-}
-*::before,
-*::after {
-  box-sizing: border-box;
-  overflow: hidden;
-}
-html {
-  font-size: var(--fontContent);
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: 'UbuntuRegular', sans-serif;
-  font-size: var(--fontBody);
-  -webkit-background-image: var(--bodyBackground);
-  -o-background-image: var(--bodyBackground);
-  -ms-background-image: var(--bodyBackground);
-  -moz-background-image: var(--bodyBackground);
-  background-image: var(--bodyBackground);
-}
-.container {
-  padding: 2rem 15rem;
-}
-@media (max-width: 1200px) {
-.container {
-    padding: 2rem 5rem;
-}
-}
-header {
-  overflow: hidden;
-}
-header .nav {
-  font-family: 'UbuntuBoldItalic';
-  overflow: hidden;
-  position: fixed;
-  left: 0;
-  right: 0;
-  background-image: var(--headerBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
-  border-bottom: 1px solid;
-  -o-border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
-     border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
-  z-index: 10;
-}
-header .nav_list {
-  padding: 2rem 15rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-@media (max-width: 1200px) {
-header .nav_list {
-    padding: 2rem 5rem;
-}
-}
-header .nav_content {
-  display: flex;
-  justify-content: space-between;
-}
-header .nav_content:nth-child(1) {
-  display: none;
-}
-header .nav_menu {
-  padding-left: 10rem;
-}
-header .nav_menu_items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .nav_menu_item {
-  padding: 1rem;
-  margin-right: 2rem;
-}
-header .nav_menu_link {
-  position: relative;
-  transition: all 0.2s linear;
-}
-header .nav_menu_link::after {
-  display: block;
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  background: var(--textColorOne);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
-  border-radius: 20px;
-  width: 100%;
-  height: 0.2rem;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.2s linear;
-}
-header .nav_menu_link:hover::after {
-  opacity: 1;
 }
 
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -2199,253 +2446,6 @@ body {
 }
 .infos_footer_primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
-}
-
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/Main.vue?vue&type=style&index=0&id=61fb690f&lang=less ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.section {
-  overflow: hidden;
-}
-.section:nth-child(2) {
-  margin-top: -1rem;
-}
-
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/footer/Footer.vue?vue&type=style&index=0&id=c343a562&lang=less ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.bgImage {
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
-}
-.primary {
-  background-image: var(--btnBackground);
-  border: none;
-  border-radius: 5rem;
-  text-align: center;
-  color: aliceblue;
-  transition: all 0.3s ease-in-out;
-}
-.primary:hover {
-  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
-}
-.secondary {
-  cursor: pointer;
-  background-color: rgba(225, 179, 239, 0.2);
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-  text-align: center;
-  border: none;
-  border-radius: 5rem;
-  transition: all 0.3s ease-in-out;
-}
-.secondary:hover {
-  -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-  background-color: #753b8b;
-}
-@font-face {
-  font-family: 'UbuntuBold';
-  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'UbuntuBoldItalic';
-  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'UbuntuItalic';
-  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'UbuntuRegular';
-  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'IncosolataBold';
-  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'IncosolataBlack';
-  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'IncosolataLigth';
-  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
-  font-weight: 300;
-}
-.slidText {
-  -webkit-animation: slidText 6s linear infinite;
-  animation: slidText 6s linear infinite;
-}
-@-webkit-keyframes slidText {
-0% {
-    -webkti-width: 0;
-    width: 0;
-}
-50% {
-    -webkit-width: 100%;
-    width: 100%;
-}
-100% {
-    -webkit-width: 100%;
-    width: 100%;
-}
-}
-@keyframes slidText {
-0% {
-    width: 0;
-}
-50% {
-    width: 100%;
-}
-100% {
-    width: 100%;
-}
-}
-:root {
-  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
-  --logoBackground: #60BFCD;
-  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
-  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
-  --textColorOne: #E1B3EF;
-  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
-  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
-  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
-  --colorShadow: #d64ee5;
-  --fontContent: 10px;
-  --fontBody: 16px;
-}
-*::before,
-*::after {
-  box-sizing: border-box;
-  overflow: hidden;
-}
-html {
-  font-size: var(--fontContent);
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: 'UbuntuRegular', sans-serif;
-  font-size: var(--fontBody);
-  -webkit-background-image: var(--bodyBackground);
-  -o-background-image: var(--bodyBackground);
-  -ms-background-image: var(--bodyBackground);
-  -moz-background-image: var(--bodyBackground);
-  background-image: var(--bodyBackground);
-}
-.container {
-  padding: 2rem 15rem;
-}
-@media (max-width: 1200px) {
-.container {
-    padding: 2rem 5rem;
-}
-}
-.footer {
-  overflow: hidden;
-}
-.footer_content {
-  font-family: 'UbuntuBoldItalic';
-  overflow: hidden;
-  background-image: var(--headerBackground);
-  -webkit-background-position: center;
-  -o-background-position: center;
-  -ms-background-position: center;
-  -moz-background-position: center;
-  background-position: center;
-  -webkit-background-repeat: no-repeat;
-  -o-background-repeat: no-repeat;
-  -ms-background-repeat: no-repeat;
-  -moz-background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  -ms-background-size: cover;
-  background-size: cover;
-  border-top: 1px solid;
-  -o-border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
-     border-image: linear-gradient(to right, #532b5f, #9E3FD6, #532b5f) 47% 0%;
-}
-.footer_main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 1rem 3rem;
-  padding-bottom: 0;
-}
-.footer_head {
-  max-width: 10rem;
-  width: 100%;
-  margin-left: 5rem;
-}
-.footer_foot {
-  max-width: 10rem;
-  width: 100%;
-  margin-right: 5rem;
-}
-.footer_logo {
-  width: 100%;
-}
-.footer_body {
-  max-width: 40rem;
-  width: 100%;
-  margin: 0 auto;
-}
-.footer_menu_items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-}
-.footer_menu_item {
-  font-size: 1.8rem;
-  padding: 1rem 2rem;
-  border: 0.3rem solid rgba(114, 79, 137, 0.5);
-  max-width: 15rem;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-.footer_menu_item::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: -5rem;
-  width: 0;
-  height: 100%;
-  -webkit-backdrop-filter: none;
-          backdrop-filter: none;
-  background-color: #753b8b;
-  transform: skewX(45deg);
-  transition: width 1s ease-in-out;
-}
-.footer_menu_item:hover::before {
-  width: 150%;
-}
-.footer_menu_link {
-  position: relative;
-  z-index: 10;
 }
 
 /*!************************************************************************************************************************************************************************************************************************************!*\
