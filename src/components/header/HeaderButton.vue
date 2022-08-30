@@ -39,6 +39,16 @@
                 showModal: false,
             }
         },
+        watch: {
+            showModal: function activeModal() {
+                if (this.showModal) {
+                    document.body.style.overflow = 'hidden';
+                    return
+                }
+
+                document.body.style.overflow = 'auto';
+            }
+        },
         methods: {
             activeModal() {
                 this.showModal = !this.showModal;

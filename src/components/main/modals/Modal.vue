@@ -10,7 +10,7 @@
                             </div>
                             <div class="modal_body">
                                 <slot name="modalBody"></slot>
-                            </div>
+                            </div> 
                             <div class="modal_footer">
                                 <slot name="modalFooter">
                                     <ButtonVue class="modal_btn_primary" v-slot="{text}" button="Close" @click="$emit('close')">{{ text }}</ButtonVue>
@@ -30,7 +30,7 @@
     export default {
         name: 'ModalVue',
         props: {
-            show: Boolean
+            show: Boolean,
         },
         components: {
             ButtonVue
