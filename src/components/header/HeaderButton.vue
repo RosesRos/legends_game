@@ -36,7 +36,7 @@
         data() {
             return {
                 btn: true,
-                showModal: true,
+                showModal: false,
             }
         },
         methods: {
