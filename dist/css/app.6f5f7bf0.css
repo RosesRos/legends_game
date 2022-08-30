@@ -904,6 +904,240 @@ body {
   text-shadow: 1px 3px 7px var(--colorShadow);
 }
 
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/main/modals/Modal.vue?vue&type=style&index=0&id=5abd1a5a&lang=less ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bgImage {
+  -webkit-background-position: center;
+  -o-background-position: center;
+  -ms-background-position: center;
+  -moz-background-position: center;
+  background-position: center;
+  -webkit-background-repeat: no-repeat;
+  -o-background-repeat: no-repeat;
+  -ms-background-repeat: no-repeat;
+  -moz-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.backgroundCard {
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: 0.3rem solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  -o-border-image: linear-gradient(to left top, transparent 10%, transparent 30%, transparent 70%, rgba(147, 45, 163, 0.8) 80%);
+     border-image: linear-gradient(to left top, transparent 10%, transparent 30%, transparent 70%, rgba(147, 45, 163, 0.8) 80%);
+  border-image-slice: 1;
+  border-radius: 2rem;
+}
+.primary {
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+  transition: all 0.3s ease-in-out;
+}
+.primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+.secondary {
+  cursor: pointer;
+  background-color: rgba(225, 179, 239, 0.2);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+.secondary:hover {
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  background-color: #753b8b;
+}
+@font-face {
+  font-family: 'UbuntuBold';
+  src: url(/legends_game/fonts/UbuntuMono-Bold.071836bd.woff2) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'UbuntuBoldItalic';
+  src: url(/legends_game/fonts/UbuntuMono-BoldItalic.522aca49.woff2) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'UbuntuItalic';
+  src: url(/legends_game/fonts/UbuntuMono-Italic.a1f01ac4.woff2) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: url(/legends_game/fonts/UbuntuMono-Regular.42c77361.woff2) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'IncosolataBold';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Bold.d033b6f7.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'IncosolataBlack';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Black.da503dc3.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'IncosolataLigth';
+  src: url(/legends_game/fonts/Inconsolata_ExtraCondensed-Light.ac6a796e.ttf) format(truetype);
+  font-weight: 300;
+}
+.slidText {
+  -webkit-animation: slidText 6s linear infinite;
+  animation: slidText 6s linear infinite;
+}
+@-webkit-keyframes slidText {
+0% {
+    -webkti-width: 0;
+    width: 0;
+}
+50% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+100% {
+    -webkit-width: 100%;
+    width: 100%;
+}
+}
+@keyframes slidText {
+0% {
+    width: 0;
+}
+50% {
+    width: 100%;
+}
+100% {
+    width: 100%;
+}
+}
+:root {
+  --bodyBackground: radial-gradient(50% 50% at 50% 50%, #491F46 0%, #3C183B 100%);
+  --logoBackground: #60BFCD;
+  --btnBackground: linear-gradient(90deg, #678ACC 0%, #689DB2 100%);
+  --cardBackground: linear-gradient(180deg, #561b59 33.75%, #502751 100%);
+  --textColorOne: #E1B3EF;
+  --textColorTwo: linear-gradient(90deg, #D9B581 0%, #F7EBB1 100%);
+  --textBackground: linear-gradient(90deg, #72FCED 0%, #37b6e8 100%);
+  --headerBackground: radial-gradient(50% 167.48% at 50% 50%, #532b5f 0%, #452d67 100%);
+  --colorShadow: #d64ee5;
+  --fontContent: 10px;
+  --fontBody: 16px;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-size: var(--fontContent);
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'UbuntuRegular', sans-serif;
+  font-size: var(--fontBody);
+  -webkit-background-image: var(--bodyBackground);
+  -o-background-image: var(--bodyBackground);
+  -ms-background-image: var(--bodyBackground);
+  -moz-background-image: var(--bodyBackground);
+  background-image: var(--bodyBackground);
+}
+.container {
+  padding: 2rem 15rem;
+  max-width: 100%;
+}
+@media (max-width: 1200px) {
+.container {
+    padding: 2rem 5rem;
+}
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(0.3rem) !important;
+          backdrop-filter: blur(0.3rem) !important;
+  z-index: 11;
+}
+.modal-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+.modal-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.modal-fade-enter-from,
+.modal-fade-leave-to {
+  transform: translateX(2rem);
+  opacity: 0;
+}
+.modal_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.modal_content {
+  width: 100%;
+  border-radius: 2rem;
+  padding: 2rem 15rem;
+}
+.modal_card {
+  background-image: var(--headerBackground);
+  border: 0.3rem solid rgba(204, 204, 204, 0.3);
+  border-radius: 2rem;
+  width: 100%;
+  padding: 5rem 6rem;
+}
+.modal_header {
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
+.modal_footer {
+  margin: 2rem 0;
+  padding: 2rem 0;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.modal_btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.modal_btn_primary {
+  max-width: 30rem;
+  width: 100%;
+  padding: 0.8rem 8rem;
+  font-size: 2rem;
+  background-image: var(--btnBackground);
+  border: none;
+  border-radius: 5rem;
+  text-align: center;
+  color: aliceblue;
+  transition: all 0.3s ease-in-out;
+}
+.modal_btn_primary:hover {
+  background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-32.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-32.use[2]!./node_modules/less-loader/dist/cjs.js??clonedRuleSet-32.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/header/HeaderButton.vue?vue&type=style&index=0&id=6e3143be&lang=less ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -1084,6 +1318,15 @@ body {
   width: 2.4rem;
   height: 2.4rem;
   margin-right: 0.8rem;
+}
+.modal_title {
+  font-size: 6rem;
+  line-height: 1;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: var(--textColorTwo);
+  width: 100%;
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -2024,7 +2267,7 @@ body {
 .infos_head_btnOne::after {
   display: block;
   content: '';
-  background-image: url(/legends_game/img/cra1.c41ddbff.png);
+  background-image: url(/legends_game/img/cra1.b2f98b92.png);
   -webkit-background-position: center;
   -o-background-position: center;
   -ms-background-position: center;
@@ -2072,7 +2315,7 @@ body {
 .infos_head_btnTwo::after {
   display: block;
   content: '';
-  background-image: url(/legends_game/img/cra2.ab066089.png);
+  background-image: url(/legends_game/img/cra2.58cf8105.png);
   -webkit-background-position: center;
   -o-background-position: center;
   -ms-background-position: center;
@@ -2526,7 +2769,7 @@ body {
   padding-top: 7rem;
 }
 .banner_inner {
-  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun2.1de776a0.jpg);
+  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun2.a9c0decf.jpg);
   -webkit-background-position: center;
   -o-background-position: center;
   -ms-background-position: center;
@@ -2971,7 +3214,7 @@ body {
   padding-top: 7rem;
 }
 .banner_inner3 {
-  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun3.561de4fb.jpg);
+  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun3.a059a71f.jpg);
   -webkit-background-position: center;
   -o-background-position: center;
   -ms-background-position: center;
@@ -3168,7 +3411,7 @@ body {
   padding-top: 7rem;
 }
 .banner_inner2 {
-  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun1.02f080a3.jpeg);
+  background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun1.2ae4c2aa.jpeg);
   -webkit-background-position: center;
   -o-background-position: center;
   -ms-background-position: center;

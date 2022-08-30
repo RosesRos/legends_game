@@ -1,6 +1,6 @@
 <template>
     <div class="nav_control">
-        <button-vue v-bind:class="{nav_control_btn: btn}" v-slot="slotProps" button="Members Login">
+        <button-vue @click="activeModal" v-bind:class="{nav_control_btn: btn}" v-slot="slotProps" button="Members Login">
             <i class="nav_control_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="25" height="25" viewBox="0 0 256 256" xml:space="preserve">
                     <defs></defs>
@@ -13,20 +13,41 @@
             {{slotProps.text}}
         </button-vue>
     </div>
+
+    <Teleport to="body">
+        <ModalVue :show="showModal" @close="activeModal">
+            <template #modalHeader>
+                <title-vue class="modal_title" title="League of Legends"></title-vue>
+            </template>
+            <template #modalBody>
+                <h3>custon header</h3>
+            </template>
+        </ModalVue>
+    </Teleport>
 </template>
 
 <script>
     import ButtonVue from '../subComponents/Button';
+    import ModalVue from '../main/modals/Modal.vue';
+    import TitleVue from '../subComponents/Title.vue';
 
     export default {
         name: 'HeaderButton',
         data() {
             return {
-                btn: true
+                btn: true,
+                showModal: true,
+            }
+        },
+        methods: {
+            activeModal() {
+                this.showModal = !this.showModal;
             }
         },
         components: {
             ButtonVue,
+            ModalVue,
+            TitleVue
         }
     }
 </script>
@@ -56,6 +77,18 @@
                 height: 2.4rem;
                 margin-right: 0.8rem;
             }
+        }
+    }
+
+    .modal {
+        &_title {
+          font-size: 6rem;
+          line-height: 1;
+          color: transparent;
+          -webkit-background-clip: text;
+          background-clip: text;
+          background-image: var(--textColorTwo);
+          width: 100%;
         }
     }
 

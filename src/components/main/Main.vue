@@ -33,7 +33,6 @@
     import MainControls from './MainControls';
     import MainInfo from './MainInfo';
 
-
     export default {
         name: 'MainVue',
         data() {
