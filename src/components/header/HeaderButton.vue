@@ -78,8 +78,9 @@
             activeModal() {
                 this.showModal = !this.showModal;
             },
-            activeContent() {
+            activeContent(e) {
                 this.showContent = true;
+                e.preventDefault();
             },
             inactiveContent() {
                 this.showContent = false;

@@ -2,7 +2,7 @@
     <nav class="nav">
         <div class="nav_list">
             <div class="nav_content">
-                <burger-vue />
+                <burger-vue :burguer="activeMenu"/>
             </div>
             <div class="nav_content">
                 <LogoVue></LogoVue>
@@ -33,7 +33,8 @@
         name: 'HeaderVue',
         data() {
             return {
-                items: Data
+                items: Data,
+                activeMenu: false
             }
         },
         components: {

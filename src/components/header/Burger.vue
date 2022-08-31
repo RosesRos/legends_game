@@ -1,5 +1,5 @@
 <template>
-    <div v-bind="activeMenu" class="nav_burger">
+    <div v-if="burguer" class="nav_burger">
         <button class="nav_burger_items">
             <span class="nav_burger_item"></span>
             <span class="nav_burger_item"></span>
@@ -11,10 +11,8 @@
 <script>
     export default {
         name: 'BurgerVue',
-        data() {
-            return {
-                activeMenu: false,
-            }
+        props: {
+            burguer: Boolean
         }
     }
 </script>
