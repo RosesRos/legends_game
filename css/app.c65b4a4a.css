@@ -1620,6 +1620,9 @@ header .nav_content {
   display: flex;
   justify-content: space-between;
 }
+header .nav_content:nth-child(1) {
+  display: none;
+}
 header .nav_menu {
   padding-left: 10rem;
 }
