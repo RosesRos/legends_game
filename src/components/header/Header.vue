@@ -72,9 +72,9 @@
             &_content {
                 display: flex;
                 justify-content: space-between;
-                &:nth-child(1) {
-                    display: none;
-                }
+                // &:nth-child(1) {
+                //     display: none;
+                // }
             }
             &_menu {
                 padding-left: 10rem;
