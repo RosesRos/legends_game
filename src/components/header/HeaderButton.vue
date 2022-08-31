@@ -20,7 +20,28 @@
                 <title-vue class="modal_title" title="League of Legends"></title-vue>
             </template>
             <template #modalBody>
-                <h3>custon header</h3>
+                <div v-on="{ mouseenter: activeContent, mouseleave: inactiveContent }">
+                    <div class="modal_body_card" v-if="showContent">
+                    <div class="modal_body_itemTwo">
+                        <video loop="" muted="" autoplay="" class="modal_body_video">
+                            <source src="../../assets/img/tile.mp4" type="video/mp4">
+                            <source src="../../assets/img/Tile.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <div class="modal_body_card" v-else>
+                    <div class="modal_body_itemOne">
+                        <div class="modal_body_items">
+                            <div class="modal_body_img">
+                                <img :src="gam" alt="Logo Gif">
+                            </div>
+                        </div>
+                        <div class="modal_body_items">
+                            <title-vue class="modal_body_title" title="time"></title-vue>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </template>
         </ModalVue>
     </Teleport>
@@ -31,12 +52,16 @@
     import ModalVue from '../main/modals/Modal.vue';
     import TitleVue from '../subComponents/Title.vue';
 
+    import Gam from '../../assets/img/gam.gif';
+
     export default {
         name: 'HeaderButton',
         data() {
             return {
+                gam: Gam,
                 btn: true,
                 showModal: false,
+                showContent: false,
             }
         },
         watch: {
@@ -52,6 +77,12 @@
         methods: {
             activeModal() {
                 this.showModal = !this.showModal;
+            },
+            activeContent() {
+                this.showContent = true;
+            },
+            inactiveContent() {
+                this.showContent = false;
             }
         },
         components: {
@@ -100,6 +131,49 @@
           background-image: var(--textColorTwo);
           width: 100%;
         }
+        &_body {
+            width: 100%;
+            &_card {
+                width: 100%;
+                height: 50%;
+            }
+            &_itemOne {
+                background-image: url('../../assets/img/backdrop.jpg');
+                .bgImage();
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+                // padding: 2rem 4rem;
+                height: 40rem;
+                width: 100%;
+                transition: all .3s ease-out;
+            }
+            &_img {
+                // max-width: 5rem;
+                width: 70%;
+            }
+            &_title {
+                font-size: 6rem;
+                line-height: 1;
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                background-image: var(--textColorTwo);
+                width: 100%;
+                text-transform: uppercase;
+            }
+            &_itemTwo {
+                overflow: hidden;
+                z-index: 1;
+                width: 100%;
+                transition: all .3s ease-out;
+            }
+            &_video {
+                width: 100%;
+                height: 40rem;
+                object-fit: cover;
+            }
+        }
     }
-
 </style>

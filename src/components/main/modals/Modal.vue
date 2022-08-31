@@ -45,6 +45,7 @@
         position: fixed;
         top: 0;
         left: 0;
+        // max-width: 72rem;
         width: 100%;
         height: 100%;
         overflow: auto;
@@ -70,7 +71,7 @@
             height: 100%;
         }
         &_content{
-            width: 100%;
+            // width: 100%;
             border-radius: 2rem;
             padding: 2rem 15rem;
         }
@@ -79,7 +80,7 @@
             border: 0.3rem solid rgba(204, 204, 204, 0.3);
             border-radius: 2rem;
             width: 100%;
-            padding: 5rem 6rem;
+            padding: 1rem 3rem;
         }
         &_header {
             margin: 2rem 0;
