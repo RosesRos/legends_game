@@ -2,7 +2,7 @@
     <nav class="nav">
         <div class="nav_list">
             <div class="nav_content">
-                <burger-vue :burguer="activeMenu"/>
+                <burger-vue />
             </div>
             <div class="nav_content">
                 <LogoVue></LogoVue>
@@ -34,7 +34,6 @@
         data() {
             return {
                 items: Data,
-                activeMenu: false
             }
         },
         components: {
@@ -73,9 +72,9 @@
             &_content {
                 display: flex;
                 justify-content: space-between;
-                // &:nth-child(1) {
-                //     display: none;
-                // }
+                &:nth-child(1) {
+                    display: none;
+                }
             }
             &_menu {
                 padding-left: 10rem;
