@@ -1,6 +1,6 @@
 <template>
     <div class="nav_control">
-        <button-vue @click="activeModal" v-bind:class="{nav_control_btn: btn}" v-slot="slotProps" button="Members Login">
+        <button-vue @click="activeModal" v-bind:class="{nav_control_btn: btn}" v-slot="slotProps" :button="button">
             <i class="nav_control_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="25" height="25" viewBox="0 0 256 256" xml:space="preserve">
                     <defs></defs>
@@ -60,6 +60,7 @@
             return {
                 gam: Gam,
                 btn: true,
+                button: 'Members Login',
                 showModal: false,
                 showContent: false,
             }
