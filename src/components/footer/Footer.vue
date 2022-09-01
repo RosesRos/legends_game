@@ -60,16 +60,26 @@
             flex-wrap: wrap;
             padding: 1rem 3rem;
             padding-bottom: 0;
+            @media (max-width: @laptop) {
+                padding: 1rem 1rem;
+                padding-bottom: 0;
+            }
         }
         &_head {
             max-width: 10rem;
             width: 100%;
             margin-left: 5rem;
+            @media (max-width: @laptop) {
+                margin-left: 2rem;
+            }
         }
         &_foot {
             max-width: 10rem;
             width: 100%;
             margin-right: 5rem;
+            @media (max-width: @laptop) {
+                margin-right: 2rem;
+            }
         }
         &_logo {
             width: 100%;

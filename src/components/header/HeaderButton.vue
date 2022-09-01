@@ -149,6 +149,9 @@
                 height: 40rem;
                 width: 100%;
                 transition: all .3s ease-out;
+                @media (max-width: @laptop) {
+                    height: 30rem;
+                }
             }
             &_img {
                 // max-width: 5rem;
@@ -174,6 +177,9 @@
                 width: 100%;
                 height: 40rem;
                 object-fit: cover;
+                @media (max-width: @laptop) {
+                    height: 30rem;
+                }
             }
         }
     }

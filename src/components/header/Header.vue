@@ -68,6 +68,9 @@
                 @media (max-width: @desktop) {
                     padding: 2rem 5rem;
                 }
+                @media (max-width: @laptop) {
+                    padding: 2rem 2rem;
+                }
             }
             &_content {
                 display: flex;
@@ -78,6 +81,9 @@
             }
             &_menu {
                 padding-left: 10rem;
+                @media (max-width: @laptop) {
+                    padding-left: 5rem;
+                }
                 &_items {
                     display: flex;
                     justify-content: space-between;

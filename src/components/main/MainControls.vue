@@ -51,6 +51,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            gap: 1rem;
         }
         &_btn {
             padding: 1rem 3rem;
