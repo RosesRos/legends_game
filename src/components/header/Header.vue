@@ -1,8 +1,8 @@
 <template>
-    <nav class="nav">
+    <nav :class="flag ? Active : Nav">
         <div class="nav_list">
             <div class="nav_content">
-                <burger-vue />
+                <burger-vue @click="showMenu"/>
             </div>
             <div class="nav_content">
                 <LogoVue></LogoVue>
@@ -34,7 +34,22 @@
         data() {
             return {
                 items: Data,
+                flag: false,
+                Nav: 'nav',
+                Active: 'nav active'
             }
+        },
+        methods: {
+            checkSize: function() {
+                this.flag = window.innerWidth <= 768;
+            },
+            showMenu() {
+                this.flag = !this.flag
+            }
+        },
+        created() {
+            window.addEventListener('resize', this.checkSize);
+            // this.checkSize();
         },
         components: {
             LogoVue,
@@ -149,7 +164,7 @@
                         height: 100%;
                         align-items: flex-start;
                         overflow: hidden;
-                        padding: 1rem;
+                        padding: 2rem 4rem;
                     }
                     .nav_menu_items {
                         flex-direction: column;
@@ -158,9 +173,44 @@
                         transform: translate(50%, 100%);
                     }
                     .nav_logo {
-                        position: absolute;
+                        // position: absolute;
                         left: 40%;
                         top: 2.5%;
+                    }
+                }
+            }
+            @media (max-width: @mobil-sm-landscape) {
+                &.active {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 11;
+                    
+                    .nav_list {
+                        height: 100%;
+                        align-items: flex-start;
+                        overflow: hidden;
+                        padding: 2rem 2rem;
+                    }
+                    .nav_menu_items {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                        transform: translate(50%, 100%);
+                    }
+                    .nav_logo {
+                        // position: absolute;
+                        left: 40%;
+                        top: 2.5%;
+                    }
+                }
+            }
+            @media (max-width: @mobil-sm-landscape) {
+                &.active {
+                    .nav_list {
+                        padding: 1.5rem;
                     }
                 }
             }
