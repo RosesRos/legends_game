@@ -5,11 +5,11 @@
         </div>
     </header>
     <main class="main">
-        <Main-vue/>
+        <Main-vue />
     </main>
     <footer class="footer">
         <div class="footer_inner">
-            <footer-vue/>
+            <footer-vue />
         </div>
     </footer>
 </template>
