@@ -726,6 +726,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 #app {
   color: var(--textColorOne);
 }
@@ -894,6 +899,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .nav_logo {
   display: flex;
   justify-content: space-between;
@@ -911,6 +921,13 @@ body {
   padding: 1rem;
   border-radius: 50%;
   margin-right: 1.5rem;
+}
+@media (max-width: 480px) {
+.nav_logo_img {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 5rem;
+}
 }
 .nav_logo_title {
   color: var(--textColorOne);
@@ -1084,6 +1101,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .modal {
   position: fixed;
   top: 0;
@@ -1117,7 +1139,22 @@ body {
 }
 .modal_content {
   border-radius: 2rem;
-  padding: 2rem 15rem;
+  padding: 2rem 10rem;
+}
+@media (max-width: 1200px) {
+.modal_content {
+    padding: 2rem 5rem;
+}
+}
+@media (max-width: 650px) {
+.modal_content {
+    padding: 2rem 5rem;
+}
+}
+@media (max-width: 480px) {
+.modal_content {
+    padding: 2rem;
+}
 }
 .modal_card {
   background-image: var(--headerBackground);
@@ -1126,9 +1163,23 @@ body {
   width: 100%;
   padding: 1rem 3rem;
 }
+@media (max-width: 650px) {
+.modal_card {
+    padding: 1rem;
+}
+}
 .modal_header {
-  margin: 2rem 0;
   padding: 2rem 0;
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.modal_header {
+    margin: 0;
+}
+}
+@media (max-width: 650px) {
+.modal_header {
+    margin: 0;
+}
 }
 .modal_footer {
   margin: 2rem 0;
@@ -1322,6 +1373,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .nav_control_btn {
   padding: 0.8rem 3rem;
   background-color: rgba(117, 59, 139, 0.6);
@@ -1345,7 +1401,7 @@ body {
   margin-right: 0.8rem;
 }
 .modal_title {
-  font-size: 6rem;
+  font-size: 10rem;
   line-height: 1;
   color: transparent;
   -webkit-background-clip: text;
@@ -1353,9 +1409,29 @@ body {
   background-image: var(--textColorTwo);
   width: 100%;
 }
+@media (max-width: 1200px) {
+.modal_title {
+    font-size: 9.5rem;
+}
+}
 @media (max-width: 860px) and (orientation: landscape) {
 .modal_title {
-    font-size: 4rem;
+    font-size: 7rem;
+}
+}
+@media (max-width: 768px) {
+.modal_title {
+    font-size: 7rem;
+}
+}
+@media (max-width: 650px) {
+.modal_title {
+    font-size: 6rem;
+}
+}
+@media (max-width: 320px) {
+.modal_title {
+    font-size: 5rem;
 }
 }
 .modal_body {
@@ -1380,7 +1456,7 @@ body {
   -ms-background-size: cover;
   background-size: cover;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   height: 40rem;
@@ -1393,15 +1469,20 @@ body {
 }
 }
 .modal_body_img {
-  width: 70%;
+  width: 100%;
 }
 @media (max-width: 860px) and (orientation: landscape) {
 .modal_body_img {
     width: 100%;
 }
 }
+@media (max-width: 650px) {
+.modal_body_img {
+    width: 100%;
+}
+}
 .modal_body_title {
-  font-size: 6rem;
+  font-size: 10rem;
   line-height: 1;
   color: transparent;
   -webkit-background-clip: text;
@@ -1592,6 +1673,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .nav_burger_items {
   display: block;
   position: absolute;
@@ -1607,6 +1693,11 @@ body {
 @media (max-width: 860px) and (orientation: landscape) {
 .nav_burger_items {
     left: 5rem;
+}
+}
+@media (max-width: 480px) {
+.nav_burger_items {
+    left: 3rem;
 }
 }
 .nav_burger_item {
@@ -1792,6 +1883,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 header {
   overflow: hidden;
 }
@@ -1840,6 +1936,11 @@ header .nav_list {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 480px) {
+header .nav_list {
+    padding: 1.5rem;
+}
+}
 header .nav_content {
   display: flex;
   justify-content: space-between;
@@ -1851,6 +1952,18 @@ header .nav_content:nth-child(1) {
 header .nav_content:nth-child(1) {
     display: block;
 }
+}
+@media (max-width: 650px) {
+header .nav_content:nth-child(1) {
+    display: block;
+}
+}
+@media (max-width: 860px) and (orientation: landscape) {
+header .nav_content:nth-child(3) {
+    display: none;
+}
+}
+@media (max-width: 650px) {
 header .nav_content:nth-child(3) {
     display: none;
 }
@@ -2097,17 +2210,42 @@ body[data-v-92f4ccfc] {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container[data-v-92f4ccfc] {
+    padding: 2rem;
+}
+}
 .banner_block[data-v-92f4ccfc] {
   padding: 5rem 6rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+@media (max-width: 650px) {
+.banner_block[data-v-92f4ccfc] {
+    padding: 3rem;
+}
+}
+@media (max-width: 768px) {
+.banner_block[data-v-92f4ccfc] {
+    padding: 3rem;
+}
+}
+@media (max-width: 480px) {
+.banner_block[data-v-92f4ccfc] {
+    padding: 2rem;
+}
+}
 .banner_title[data-v-92f4ccfc] {
   font-family: 'IncosolataBlack';
   font-size: 4rem;
   font-style: normal;
   text-shadow: 1px 3px 7px var(--colorShadow);
+}
+@media (max-width: 480px) {
+.banner_title[data-v-92f4ccfc]:nth-child(1) {
+    font-size: 3rem;
+}
 }
 .banner_title[data-v-92f4ccfc]:nth-child(2) {
   font-size: 6rem;
@@ -2135,21 +2273,58 @@ body[data-v-92f4ccfc] {
   -webkit-animation: slidText-92f4ccfc 6s linear infinite;
   animation: slidText-92f4ccfc 6s linear infinite;
 }
+@media (max-width: 860px) and (orientation: landscape) {
+.banner_title[data-v-92f4ccfc]:nth-child(2) {
+    display: none;
+}
+}
+@media (max-width: 650px) {
+.banner_title[data-v-92f4ccfc]:nth-child(2) {
+    display: none;
+}
+}
 .banner_title[data-v-92f4ccfc]:nth-child(3) {
   font-size: 7rem;
   font-weight: 600;
   line-height: 2;
   text-shadow: none;
 }
+@media (max-width: 650px) {
+.banner_title[data-v-92f4ccfc]:nth-child(3) {
+    font-size: 5rem;
+}
+}
+@media (max-width: 768px) {
+.banner_title[data-v-92f4ccfc]:nth-child(3) {
+    font-size: 5rem;
+}
+}
+@media (max-width: 480px) {
+.banner_title[data-v-92f4ccfc]:nth-child(3) {
+    font-size: 3rem;
+}
+}
 .banner_description[data-v-92f4ccfc] {
   font-size: 1.6rem;
   max-width: 50rem;
   width: 100%;
 }
+@media (max-width: 480px) {
+.banner_description[data-v-92f4ccfc] {
+    font-size: 1.4rem;
+}
+}
 .banner_btn[data-v-92f4ccfc] {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+@media (max-width: 650px) {
+.banner_btn[data-v-92f4ccfc] {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
 }
 .banner_btn_title[data-v-92f4ccfc] {
   font-size: 6rem;
@@ -2160,6 +2335,11 @@ body[data-v-92f4ccfc] {
   background-image: var(--textColorTwo);
   max-width: 30rem;
   width: 100%;
+}
+@media (max-width: 650px) {
+.banner_btn_title[data-v-92f4ccfc] {
+    font-size: 4.5rem;
+}
 }
 .banner_btn_primary[data-v-92f4ccfc] {
   padding: 0.8rem 8rem;
@@ -2173,6 +2353,28 @@ body[data-v-92f4ccfc] {
 }
 .banner_btn_primary[data-v-92f4ccfc]:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.banner_btn_primary[data-v-92f4ccfc] {
+    padding: 0.8rem 4rem;
+    font-size: 1.6rem;
+}
+}
+@media (max-width: 480px) {
+.banner_btn_primary[data-v-92f4ccfc] {
+    font-size: 1.8rem;
+}
+}
+@media (max-width: 390px) {
+.banner_btn_primary[data-v-92f4ccfc] {
+    font-size: 1.7rem;
+    padding: 0.8rem 6rem;
+}
+}
+@media (max-width: 320px) {
+.banner_btn_primary[data-v-92f4ccfc] {
+    padding: 0.8rem 3rem;
+}
 }
 
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -2339,6 +2541,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .controls {
   overflow: hidden;
 }
@@ -2349,6 +2556,16 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+}
+@media (max-width: 768px) {
+.controls_block {
+    gap: 0.2rem;
+}
+}
+@media (max-width: 650px) {
+.controls_block {
+    gap: 1rem;
+}
 }
 .controls_btn {
   padding: 1rem 3rem;
@@ -2369,6 +2586,17 @@ body {
 .controls_btn {
     padding: 1rem 2rem;
     max-width: 18rem;
+}
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.controls_btn {
+    max-width: 15rem;
+    font-size: 1.2rem;
+}
+}
+@media (max-width: 650px) {
+.controls_btn {
+    max-width: 20rem;
 }
 }
 .controls_btn:hover {
@@ -2577,9 +2805,24 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .infos_head_list {
   max-width: 25rem;
   width: 100%;
+}
+@media (max-width: 650px) {
+.infos_head_list {
+    margin: 2rem;
+}
+}
+@media (max-width: 768px) {
+.infos_head_list {
+    margin: 2rem;
+}
 }
 .infos_head_list p {
   color: gray;
@@ -2634,10 +2877,21 @@ body {
   top: calc(50% - 5rem);
   z-index: 5;
 }
+@media (max-width: 320px) {
+.infos_head_btnOne::after {
+    width: 6rem;
+    height: 9rem;
+}
+}
 .infos_head_btnOne:hover {
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
   background-color: #753b8b;
+}
+@media (max-width: 320px) {
+.infos_head_btnOne {
+    font-size: 1.6rem;
+}
 }
 .infos_head_btnTwo {
   padding: 1rem 4rem;
@@ -2682,14 +2936,35 @@ body {
   top: calc(50% - 5rem);
   z-index: 5;
 }
+@media (max-width: 320px) {
+.infos_head_btnTwo::after {
+    width: 6rem;
+    height: 9rem;
+}
+}
 .infos_head_btnTwo:hover {
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
   background-color: #753b8b;
 }
+@media (max-width: 320px) {
+.infos_head_btnTwo {
+    font-size: 1.6rem;
+}
+}
 .infos_head_equ {
   font-size: 3rem;
   color: aliceblue;
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.infos_head_equ {
+    display: none;
+}
+}
+@media (max-width: 650px) {
+.infos_head_equ {
+    display: none;
+}
 }
 .btns_icon {
   background-image: url(/legends_game/img/arrow.d72dab8d.svg);
@@ -2709,6 +2984,12 @@ body {
   height: 1.6rem;
   float: right;
   margin-top: 0.6rem;
+}
+@media (max-width: 320px) {
+.btns_icon {
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -2875,6 +3156,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .infos_inner {
   background-image: var(--headerBackground);
   background-origin: border-box;
@@ -2887,6 +3173,21 @@ body {
   padding: 5rem 6rem;
   text-align: center;
 }
+@media (max-width: 650px) {
+.infos_info {
+    padding: 3rem;
+}
+}
+@media (max-width: 768px) {
+.infos_info {
+    padding: 3rem;
+}
+}
+@media (max-width: 480px) {
+.infos_info {
+    padding: 2rem;
+}
+}
 .infos_head {
   padding-bottom: 3rem;
 }
@@ -2897,6 +3198,26 @@ body {
   text-shadow: none;
   font-family: 'IncosolataBlack';
   text-shadow: 1px 3px 7px #d64ee5;
+}
+@media (max-width: 650px) {
+.infos_head_title {
+    font-size: 4.5rem;
+}
+}
+@media (max-width: 768px) {
+.infos_head_title {
+    font-size: 5rem;
+}
+}
+@media (max-width: 480px) {
+.infos_head_title {
+    font-size: 3rem;
+}
+}
+@media (max-width: 320px) {
+.infos_head_title {
+    font-size: 2.7rem;
+}
 }
 .infos_body {
   padding-top: 2rem;
@@ -2918,6 +3239,16 @@ body {
   align-items: center;
   padding: 3rem 1rem;
 }
+@media (max-width: 860px) and (orientation: landscape) {
+.infos_body_content {
+    gap: 4rem;
+}
+}
+@media (max-width: 480px) {
+.infos_body_content {
+    justify-content: center;
+}
+}
 .infos_body_items {
   text-align: center;
   display: flex;
@@ -2927,6 +3258,18 @@ body {
 }
 .infos_body_items span {
   padding: 1rem 0;
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.infos_body_items {
+    max-width: 20rem;
+    width: 100%;
+}
+}
+@media (max-width: 650px) {
+.infos_body_items {
+    max-width: 18rem;
+    width: 100%;
+}
 }
 .infos_img {
   padding: 2rem;
@@ -2949,6 +3292,11 @@ body {
 }
 .infos_footer_primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
+}
+@media (max-width: 320px) {
+.infos_footer_primary {
+    font-size: 1.8rem;
+}
 }
 
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -3115,6 +3463,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .section {
   overflow: hidden;
 }
@@ -3124,6 +3477,11 @@ body {
 .banner {
   margin-top: 2rem;
   padding-top: 7rem;
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.banner {
+    padding-top: 6rem;
+}
 }
 .banner_inner {
   background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun2.a9c0decf.jpg);
@@ -3150,6 +3508,26 @@ body {
   border-radius: 2rem;
   width: 100%;
   height: 55rem;
+}
+@media (max-width: 650px) {
+.banner_inner {
+    height: 45rem;
+}
+}
+@media (max-width: 768px) {
+.banner_inner {
+    height: 45rem;
+}
+}
+@media (max-width: 480px) {
+.banner_inner {
+    height: 40rem;
+}
+}
+@media (max-width: 390px) {
+.banner_inner {
+    height: 40rem;
+}
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -3316,6 +3694,11 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .footer {
   overflow: hidden;
 }
@@ -3363,6 +3746,11 @@ body {
     margin-left: 2rem;
 }
 }
+@media (max-width: 650px) {
+.footer_head {
+    display: none;
+}
+}
 .footer_foot {
   max-width: 10rem;
   width: 100%;
@@ -3371,6 +3759,16 @@ body {
 @media (max-width: 990px) {
 .footer_foot {
     margin-right: 2rem;
+}
+}
+@media (max-width: 768px) {
+.footer_foot {
+    display: none;
+}
+}
+@media (max-width: 650px) {
+.footer_foot {
+    display: none;
 }
 }
 .footer_logo {
@@ -3416,6 +3814,11 @@ body {
 }
 .footer_menu_item:hover::before {
   width: 150%;
+}
+@media (max-width: 390px) {
+.footer_menu_item {
+    max-width: 100%;
+}
 }
 .footer_menu_link {
   position: relative;
@@ -3586,15 +3989,16 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .section {
   overflow: hidden;
 }
 .section:nth-child(2) {
   margin-top: -1rem;
-}
-.banner {
-  margin-top: 2rem;
-  padding-top: 7rem;
 }
 .banner_inner3 {
   background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun3.a059a71f.jpg);
@@ -3622,6 +4026,26 @@ body {
   border-radius: 2rem;
   width: 100%;
   height: 55rem;
+}
+@media (max-width: 650px) {
+.banner_inner3 {
+    height: 45rem;
+}
+}
+@media (max-width: 768px) {
+.banner_inner3 {
+    height: 45rem;
+}
+}
+@media (max-width: 480px) {
+.banner_inner3 {
+    height: 40rem;
+}
+}
+@media (max-width: 390px) {
+.banner_inner3 {
+    height: 40rem;
+}
 }
 
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -3788,15 +4212,16 @@ body {
     padding: 2rem 4rem;
 }
 }
+@media (max-width: 650px) {
+.container {
+    padding: 2rem;
+}
+}
 .section {
   overflow: hidden;
 }
 .section:nth-child(2) {
   margin-top: -1rem;
-}
-.banner {
-  margin-top: 2rem;
-  padding-top: 7rem;
 }
 .banner_inner2 {
   background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)), url(/legends_game/img/mun1.2ae4c2aa.jpeg);
@@ -3823,6 +4248,27 @@ body {
   border-radius: 2rem;
   width: 100%;
   height: 55rem;
+}
+@media (max-width: 650px) {
+.banner_inner2 {
+    height: 45rem;
+}
+}
+@media (max-width: 768px) {
+.banner_inner2 {
+    height: 45rem;
+}
+}
+@media (max-width: 480px) {
+.banner_inner2 {
+    background-position: left;
+    height: 40rem;
+}
+}
+@media (max-width: 390px) {
+.banner_inner2 {
+    height: 40rem;
+}
 }
 
 /*!************************************************************************************************************************************************************************************************************************************!*\
@@ -4596,6 +5042,11 @@ body {
 @media (max-width: 990px) {
   .container {
     padding: 2rem 4rem;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    padding: 2rem;
   }
 }
 

@@ -33,6 +33,9 @@
                 @media (max-width: @mobil-landscape) and (orientation: landscape) {
                     left: 5rem;
                 }
+                @media (max-width: @mobil) {
+                    left: 3rem;
+                }
             }
             &_item {
                 display: block;

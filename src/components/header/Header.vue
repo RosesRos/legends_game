@@ -74,6 +74,9 @@
                 @media (max-width: @mobil-landscape) and (orientation: landscape) {
                     padding: 2rem 4rem;
                 }
+                @media (max-width: @mobil) {
+                    padding: 1.5rem;
+                }
             }
             &_content {
                 display: flex;
@@ -83,9 +86,15 @@
                     @media (max-width: @mobil-landscape) and (orientation: landscape) {
                         display: block;
                     }
+                    @media (max-width: @mobil-sm-landscape) {
+                        display: block;
+                    }
                 }
                 &:nth-child(3) {
                     @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                        display: none;
+                    }
+                    @media (max-width: @mobil-sm-landscape) {
                         display: none;
                     }
                 }

@@ -144,15 +144,27 @@
 
     .modal {
         &_title {
-          font-size: 6rem;
+          font-size: 10rem;
           line-height: 1;
           color: transparent;
           -webkit-background-clip: text;
           background-clip: text;
           background-image: var(--textColorTwo);
           width: 100%;
+          @media (max-width: @desktop) {
+            font-size: 9.5rem;
+          }
           @media (max-width: @mobil-landscape) and (orientation: landscape) {
-            font-size: 4rem;
+            font-size: 7rem;
+          }
+          @media (max-width: @tablet) {
+            font-size: 7rem;
+          }
+          @media (max-width: @mobil-sm-landscape) {
+            font-size: 6rem;
+          }
+          @media (max-width: 320px) {
+            font-size: 5rem;
           }
         }
         &_body {
@@ -165,7 +177,7 @@
                 background-image: url('../../assets/img/backdrop.jpg');
                 .bgImage();
                 display: flex;
-                justify-content: flex-start;
+                justify-content: space-around;
                 align-items: center;
                 flex-wrap: wrap;
                 // padding: 2rem 4rem;
@@ -178,13 +190,16 @@
             }
             &_img {
                 // max-width: 5rem;
-                width: 70%;
+                width: 100%;
                 @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    width: 100%;
+                }
+                @media (max-width: @mobil-sm-landscape) {
                     width: 100%;
                 }
             }
             &_title {
-                font-size: 6rem;
+                font-size: 10rem;
                 line-height: 1;
                 color: transparent;
                 -webkit-background-clip: text;

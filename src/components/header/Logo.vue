@@ -4,7 +4,7 @@
                 <div class="nav_logo_img">
                     <img v-bind:src="crown" alt="Logo App" />
                 </div>
-                <title-vue class="nav_logo_title" title="Boost Royal"></title-vue>
+                <title-vue class="nav_logo_title" :title=" showTitleLogo ? null : 'Boost Royal'"></title-vue>
             </router-link>
     </div>
 </template>
@@ -17,8 +17,21 @@
         name: 'LogoVue',
         data() {
             return {
-                crown
+                crown,
+                showTitleLogo: false,
             }
+        },
+        methods: {
+            setResizeTitle: function() {
+                this.showTitleLogo = window.innerWidth <= 480;
+            }
+        },
+        mounted() {
+            window.addEventListener('resize', this.setResizeTitle);
+            this.setResizeTitle();
+        },
+        unmounted() {
+            window.removeEventListener('resize', this.setResizeTitle);
         },
         components: {
             TitleVue
@@ -46,6 +59,11 @@
                 padding: 1rem;
                 border-radius: 50%;
                 margin-right: 1.5rem;
+                @media (max-width: @mobil) {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-left: 5rem;
+                }
             }
             &_title {
                 color: var(--textColorOne);

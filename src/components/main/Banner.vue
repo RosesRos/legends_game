@@ -47,6 +47,15 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        @media (max-width: @mobil-sm-landscape) {
+          padding: 3rem;
+        }
+        @media (max-width: @tablet) {
+          padding: 3rem;
+        }
+        @media (max-width: @mobil) {
+          padding: 2rem;
+        }
       }
   
       &_title {
@@ -54,6 +63,11 @@
         font-size: 4rem;
         font-style: normal;
         text-shadow: @TextShadow var(--colorShadow);
+        &:nth-child(1) {
+          @media (max-width: @mobil) {
+            font-size: 3rem;
+          }
+        }
   
         &:nth-child(2) {
           font-size: 6rem;
@@ -80,6 +94,12 @@
             background-image: var(--textBackground);
             .slidText();
           }
+          @media (max-width: @mobil-landscape) and (orientation: landscape) {
+            display: none;
+          }
+          @media (max-width: @mobil-sm-landscape) {
+            display: none;
+          }
         }
   
         &:nth-child(3) {
@@ -87,6 +107,15 @@
           font-weight: 600;
           line-height: 2;
           text-shadow: none;
+          @media (max-width: @mobil-sm-landscape) {
+            font-size: 5rem;
+          }
+          @media (max-width: @tablet) {
+            font-size: 5rem;
+          }
+          @media (max-width: @mobil) {
+            font-size: 3rem;
+          }
         }
       }
   
@@ -94,13 +123,20 @@
         font-size: 1.6rem;
         max-width: 50rem;
         width: 100%;
+        @media (max-width: @mobil) {
+          font-size: 1.4rem;
+        }
       }
   
       &_btn {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-  
+        @media (max-width: @mobil-sm-landscape) {
+          flex-direction: column-reverse;
+          align-items: flex-start;
+          padding-top: 2rem;
+        }
         &_title {
           font-size: 6rem;
           line-height: 1;
@@ -110,12 +146,29 @@
           background-image: var(--textColorTwo);
           max-width: 30rem;
           width: 100%;
+          @media (max-width: @mobil-sm-landscape) {
+            font-size: 4.5rem;
+          }
         }
   
         &_primary {
           padding: 0.8rem 8rem;
           font-size: 2rem;
           .primary();
+          @media (max-width: @mobil-landscape) and (orientation: landscape) {
+            padding: 0.8rem 4rem;
+            font-size: 1.6rem;
+          }
+          @media (max-width: @mobil) {
+            font-size: 1.8rem;
+          }
+          @media (max-width: @mobil-sm) {
+            font-size: 1.7rem;
+            padding: 0.8rem 6rem;
+          }
+          @media (max-width: 320px) {
+            padding: 0.8rem 3rem;
+          }
         }
       }
     }

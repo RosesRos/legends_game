@@ -1,13 +1,7 @@
 <template>
     <div v-bind:class="{controls: control}">
         <div class="controls_inner">
-            <div class="controls_block">
-                <div class="controls_btn" v-for="data in datas" :key="data.id">
-                    <button-vue v-slot="{text}" :button="data.title">
-                    {{text}}
-                    </button-vue>
-                </div>
-            </div>
+            <sub-buttons v-bind:showButtons="showButton"/>
             <div class="controls_block">
                 <div class="controls_info">
                     <p>Last Order Platinum | to Diamond Iv.4</p>
@@ -23,19 +17,34 @@
 </template>
 
 <script>
-    import { Data } from './DataMain';
+    // import { Data } from './DataMain';
     import ButtonVue from '../subComponents/Button';
+    import SubButtons from './subMain/SubButtons.vue';
 
     export default {
         name: 'MainControls',
         data() {
             return {
                 control: true,
-                datas: Data
+                showButton: false,
+                // datas: Data
             }
+        },
+        methods: {
+            onResize: function() {
+                this.showButton = window.innerWidth >= 860;
+            }
+        },
+        mounted() {
+            window.addEventListener('resize', this.onResize);
+            this.onResize();
+        },
+        unmounted() {
+            window.removeEventListener('resize', this.onResize);
         },
         components: {
             ButtonVue,
+            SubButtons
         }
     }
 </script>
@@ -52,6 +61,12 @@
             justify-content: space-between;
             align-items: center;
             gap: 1rem;
+            @media (max-width: @tablet) {
+                gap: 0.2rem;
+            }
+            @media (max-width: @mobil-sm-landscape) {
+                gap: 1rem;
+            }
         }
         &_btn {
             padding: 1rem 3rem;
@@ -62,6 +77,13 @@
             @media (max-width: @laptop) {
                 padding: 1rem 2rem;
                 max-width: 18rem;
+            }
+            @media (max-width: @mobil-landscape)and (orientation: landscape) {
+                max-width: 15rem;
+                font-size: 1.2rem;
+            }
+            @media (max-width: @mobil-sm-landscape) {
+                max-width: 20rem;
             }
             .secondary();
             &:nth-child(1) {

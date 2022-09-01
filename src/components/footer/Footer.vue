@@ -72,6 +72,9 @@
             @media (max-width: @laptop) {
                 margin-left: 2rem;
             }
+            @media (max-width: @mobil-sm-landscape) {
+                display: none;
+            }
         }
         &_foot {
             max-width: 10rem;
@@ -79,6 +82,12 @@
             margin-right: 5rem;
             @media (max-width: @laptop) {
                 margin-right: 2rem;
+            }
+            @media (max-width: @tablet) {
+                display: none;
+            }
+            @media (max-width: @mobil-sm-landscape) {
+                display: none;
             }
         }
         &_logo {
@@ -123,6 +132,9 @@
                 }
                 &:hover::before {
                     width: 150%;
+                }
+                @media (max-width: @mobil-sm) {
+                    max-width: 100%;
                 }
             }
             &_link {

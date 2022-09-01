@@ -69,7 +69,15 @@
         &_info {
             padding: 5rem 6rem;
             text-align: center;
-
+            @media (max-width: @mobil-sm-landscape) {
+                padding: 3rem;
+            }
+            @media (max-width: @tablet) {
+                padding: 3rem;
+            }
+            @media (max-width: @mobil) {
+                padding: 2rem;
+            }
         }
         &_head {
             padding-bottom: 3rem;
@@ -80,6 +88,18 @@
                 text-shadow: none;
                 font-family: @font_6;
                 text-shadow: 1px 3px 7px #d64ee5;
+                @media (max-width: @mobil-sm-landscape) {
+                    font-size: 4.5rem;
+                }
+                @media (max-width: @tablet) {
+                    font-size: 5rem;
+                }
+                @media (max-width: @mobil) {
+                    font-size: 3rem;
+                }
+                @media (max-width: 320px) {
+                    font-size: 2.7rem;
+                }
             }
         }
         &_body {
@@ -100,6 +120,12 @@
                 justify-content: space-between;
                 align-items: center;
                 padding: 3rem 1rem;
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    gap: 4rem;
+                }
+                @media (max-width: @mobil) {
+                    justify-content: center;
+                }
             }
             &_items {
                 text-align: center;
@@ -109,6 +135,14 @@
                 flex-direction: column;
                 span {
                     padding: 1rem 0;
+                }
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    max-width: 20rem;
+                    width: 100%;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    max-width: 18rem;
+                    width: 100%;
                 }
             }
         }
@@ -126,6 +160,9 @@
                 width: 100%;
                 font-size: 2rem;
                 .primary();
+                @media (max-width: 320px) {
+                    font-size: 1.8rem;
+                }
             }
         }
     }

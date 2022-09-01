@@ -73,7 +73,16 @@
         &_content{
             // width: 100%;
             border-radius: 2rem;
-            padding: 2rem 15rem;
+            padding: 2rem 10rem;
+            @media (max-width: @desktop) {
+                padding: 2rem 5rem;
+            }
+            @media (max-width: @mobil-sm-landscape) {
+                padding: 2rem 5rem;
+            }
+            @media (max-width: @mobil) {
+                padding: 2rem;
+            }
         }
         &_card {
             background-image: var(--headerBackground);
@@ -81,10 +90,19 @@
             border-radius: 2rem;
             width: 100%;
             padding: 1rem 3rem;
+            @media (max-width: @mobil-sm-landscape) {
+                padding: 1rem;
+            }
         }
         &_header {
-            margin: 2rem 0;
+            // margin: 2rem 0;
             padding: 2rem 0;
+            @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                margin: 0;
+            }
+            @media (max-width: @mobil-sm-landscape) {
+                margin: 0;
+            }
         }
         &_footer {
             margin: 2rem 0;

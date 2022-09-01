@@ -41,8 +41,6 @@
     }
 
     .banner {
-        margin-top: 2rem;
-        padding-top: 7rem;
         &_inner2 {
             background-image: radial-gradient(rgba(155, 79, 178, 0.8), rgba(69, 45, 103, 0.5)),
             url('../../assets/img/mun1.jpeg');
@@ -50,6 +48,19 @@
             .backgroundCard();
             width: 100%;
             height: 55rem;
+            @media (max-width: @mobil-sm-landscape) {
+                height: 45rem;
+            }
+            @media (max-width: @tablet) {
+                height: 45rem;
+            }
+            @media (max-width: @mobil) {
+                background-position: left;
+                height: 40rem;
+            }
+            @media (max-width: @mobil-sm) {
+                height: 40rem;
+            }
         }
     }
 </style>

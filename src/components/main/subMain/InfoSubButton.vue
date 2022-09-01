@@ -44,6 +44,12 @@
             &_list {
                 max-width: 25rem;
                 width: 100%;
+                @media (max-width: @mobil-sm-landscape) {
+                    margin: 2rem;
+                }
+                @media (max-width: @tablet) {
+                    margin: 2rem;
+                }
                 p {
                     color: gray;
                     font-size: 1.4rem;
@@ -73,10 +79,17 @@
                     left: -3rem;
                     top: calc(50% - 5rem);
                     z-index: 5;
+                    @media (max-width: 320px) {
+                        width: 6rem;
+                        height: 9rem;
+                    }
                 }
                 &:hover {
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
+                }
+                @media (max-width: 320px) {
+                    font-size: 1.6rem;
                 }
             }
             &_btnTwo {
@@ -97,15 +110,28 @@
                     left: -3rem;
                     top: calc(50% - 5rem);
                     z-index: 5;
+                    @media (max-width: 320px) {
+                        width: 6rem;
+                        height: 9rem;
+                    }
                 }
                 &:hover {
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
                 }
+                @media (max-width: 320px) {
+                    font-size: 1.6rem;
+                }
             }
             &_equ {
                 font-size: 3rem;
                 color: aliceblue;
+                @media (max-width: @mobil-landscape)and (orientation: landscape) {
+                    display: none;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    display: none;
+                }
             }
         }
     }
@@ -118,6 +144,10 @@
             height: 1.6rem;
             float: right;
             margin-top: 0.6rem;
+            @media (max-width: 320px) {
+                margin-left: 0.5rem;
+                margin-top: 0.3rem;
+            }
         }
     }
 
