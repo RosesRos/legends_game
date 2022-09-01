@@ -15,6 +15,8 @@
 </script>
 
 <style lang="less">
+    @import '../../styles/Main.less';
+
     .nav {
         &_burger {
             &_items {
@@ -28,6 +30,9 @@
                 background: transparent;
                 padding: 0;
                 z-index: 11;
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    left: 5rem;
+                }
             }
             &_item {
                 display: block;

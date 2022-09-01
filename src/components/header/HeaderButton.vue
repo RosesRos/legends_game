@@ -30,7 +30,15 @@
                     </div>
                 </div>
                 <div class="modal_body_card" v-else>
-                    <div class="modal_body_itemOne">
+                    <div class="modal_body_itemOne" v-if="small">
+                        <div class="modal_body_items">
+                            <div class="modal_body_img">
+                                <img :src="gam" alt="Logo Gif">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal_body_itemOne" v-else>
                         <div class="modal_body_items">
                             <div class="modal_body_img">
                                 <img :src="gam" alt="Logo Gif">
@@ -143,6 +151,9 @@
           background-clip: text;
           background-image: var(--textColorTwo);
           width: 100%;
+          @media (max-width: @mobil-landscape) and (orientation: landscape) {
+            font-size: 4rem;
+          }
         }
         &_body {
             width: 100%;
@@ -168,6 +179,9 @@
             &_img {
                 // max-width: 5rem;
                 width: 70%;
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    width: 100%;
+                }
             }
             &_title {
                 font-size: 6rem;
