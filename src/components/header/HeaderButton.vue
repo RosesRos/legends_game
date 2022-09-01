@@ -1,6 +1,6 @@
 <template>
     <div class="nav_control">
-        <button-vue @click="activeModal" v-bind:class="{nav_control_btn: btn}" v-slot="slotProps" :button="button">
+        <button-vue @click="activeModal" v-bind:class="{nav_control_btn: btn}" v-slot="slotProps" :button="small ? 'Log-In' : button">
             <i class="nav_control_icon">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="25" height="25" viewBox="0 0 256 256" xml:space="preserve">
                     <defs></defs>
@@ -63,7 +63,15 @@
                 button: 'Members Login',
                 showModal: false,
                 showContent: false,
+                small: false,
             }
+        },
+        mounted() {
+            window.addEventListener('resize', this.onResize);
+            this.onResize();
+        },
+        unmounted() {
+            window.removeEventListener('resize', this.onResize);
         },
         watch: {
             showModal: function activeModal() {
@@ -85,6 +93,9 @@
             },
             inactiveContent() {
                 this.showContent = false;
+            },
+            onResize: function() {
+                this.small = window.innerWidth <= 860;
             }
         },
         components: {

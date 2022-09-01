@@ -59,6 +59,10 @@
             width: 100%;
             font-family: @font_5;
             font-weight: 550;
+            @media (max-width: @laptop) {
+                padding: 1rem 2rem;
+                max-width: 18rem;
+            }
             .secondary();
             &:nth-child(1) {
                 background-color: rgba(117, 59, 139, 0.6);
@@ -77,6 +81,9 @@
                 width: 100%;
                 font-size: 2rem;
                 .primary();
+                @media (max-width: @laptop) {
+                    padding: 0.4rem 3rem;
+                }
             }
         }
         &_info {
