@@ -539,6 +539,9 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+.outline {
+  outline-style: solid;
+}
 .ring {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -597,6 +600,15 @@ video {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -770,6 +782,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -972,6 +993,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1204,6 +1234,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .modal_btn_primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1244,6 +1283,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1544,6 +1592,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -1754,6 +1811,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -2081,6 +2147,15 @@ header .nav.active .nav_logo {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary[data-v-92f4ccfc]:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -2350,6 +2425,15 @@ body[data-v-92f4ccfc] {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .banner_btn_primary[data-v-92f4ccfc]:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -2367,7 +2451,7 @@ body[data-v-92f4ccfc] {
 }
 @media (max-width: 390px) {
 .banner_btn_primary[data-v-92f4ccfc] {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     padding: 0.8rem 6rem;
 }
 }
@@ -2412,6 +2496,15 @@ body[data-v-92f4ccfc] {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -2627,6 +2720,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .controls_btn_primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -2676,6 +2778,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -3027,6 +3138,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -3289,6 +3409,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .infos_footer_primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -3334,6 +3463,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -3565,6 +3703,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -3860,6 +4007,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -4083,6 +4239,15 @@ body {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
@@ -4856,6 +5021,9 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+.outline {
+  outline-style: solid;
+}
 .ring {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -4915,6 +5083,15 @@ video {
   text-align: center;
   color: aliceblue;
   transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
 }
 .primary:hover {
   background-image: linear-gradient(90deg, #689DB2 0%, #678ACC 100%);
