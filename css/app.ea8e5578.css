@@ -1359,6 +1359,11 @@ body {
   width: 100%;
   transition: all 0.3s ease-out;
 }
+@media (max-width: 990px) {
+.modal_body_itemOne {
+    height: 30rem;
+}
+}
 .modal_body_img {
   width: 70%;
 }
@@ -1383,6 +1388,11 @@ body {
   height: 40rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (max-width: 990px) {
+.modal_body_video {
+    height: 30rem;
+}
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -1616,6 +1626,11 @@ header .nav_list {
     padding: 2rem 5rem;
 }
 }
+@media (max-width: 990px) {
+header .nav_list {
+    padding: 2rem 2rem;
+}
+}
 header .nav_content {
   display: flex;
   justify-content: space-between;
@@ -1625,6 +1640,11 @@ header .nav_content:nth-child(1) {
 }
 header .nav_menu {
   padding-left: 10rem;
+}
+@media (max-width: 990px) {
+header .nav_menu {
+    padding-left: 5rem;
+}
 }
 header .nav_menu_items {
   display: flex;
@@ -2074,6 +2094,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 .controls_btn {
   padding: 1rem 3rem;
@@ -3041,15 +3062,31 @@ body {
   padding: 1rem 3rem;
   padding-bottom: 0;
 }
+@media (max-width: 990px) {
+.footer_main {
+    padding: 1rem 1rem;
+    padding-bottom: 0;
+}
+}
 .footer_head {
   max-width: 10rem;
   width: 100%;
   margin-left: 5rem;
 }
+@media (max-width: 990px) {
+.footer_head {
+    margin-left: 2rem;
+}
+}
 .footer_foot {
   max-width: 10rem;
   width: 100%;
   margin-right: 5rem;
+}
+@media (max-width: 990px) {
+.footer_foot {
+    margin-right: 2rem;
+}
 }
 .footer_logo {
   width: 100%;
