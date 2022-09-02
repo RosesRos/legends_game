@@ -935,6 +935,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 860px) and (orientation: landscape) {
+.nav_logo_item {
+    cursor: none;
+}
+}
+@media (max-width: 650px) {
+.nav_logo_item {
+    cursor: none;
+}
+}
 .nav_logo_img {
   max-width: 4rem;
   width: 60%;
@@ -1443,6 +1453,16 @@ body {
           backdrop-filter: none;
   background-color: #753b8b;
 }
+@media (max-width: 860px) and (orientation: landscape) {
+.nav_control_btn {
+    cursor: none;
+}
+}
+@media (max-width: 650px) {
+.nav_control_btn {
+    cursor: none;
+}
+}
 .nav_control_icon {
   width: 2.4rem;
   height: 2.4rem;
@@ -1750,6 +1770,12 @@ body {
 @media (max-width: 860px) and (orientation: landscape) {
 .nav_burger_items {
     left: 5rem;
+    cursor: none;
+}
+}
+@media (max-width: 650px) {
+.nav_burger_items {
+    cursor: none;
 }
 }
 @media (max-width: 480px) {
@@ -2737,6 +2763,16 @@ body {
           backdrop-filter: none;
   background-color: #753b8b;
 }
+@media (max-width: 860px) and (orientation: landscape) {
+.controls_btn > button {
+    cursor: none;
+}
+}
+@media (max-width: 650px) {
+.controls_btn > button {
+    cursor: none;
+}
+}
 .controls_btn_primary {
   padding: 0.4rem 4rem;
   max-width: 20rem;
@@ -3027,6 +3063,16 @@ body {
           backdrop-filter: none;
   background-color: #753b8b;
 }
+@media (max-width: 860px) and (orientation: landscape) {
+.infos_head_btnOne {
+    cursor: none;
+}
+}
+@media (max-width: 650px) {
+.infos_head_btnOne {
+    cursor: none;
+}
+}
 @media (max-width: 320px) {
 .infos_head_btnOne {
     font-size: 1.6rem;
@@ -3085,6 +3131,16 @@ body {
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
   background-color: #753b8b;
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.infos_head_btnTwo {
+    cursor: none;
+}
+}
+@media (max-width: 650px) {
+.infos_head_btnTwo {
+    cursor: none;
+}
 }
 @media (max-width: 320px) {
 .infos_head_btnTwo {
@@ -3993,6 +4049,16 @@ body {
 @media (max-width: 390px) {
 .footer_menu_item {
     max-width: 100%;
+}
+}
+@media (max-width: 860px) and (orientation: landscape) {
+.footer_menu_item {
+    cursor: none;
+}
+}
+@media (max-width: 650px) {
+.footer_menu_item {
+    cursor: none;
 }
 }
 .footer_menu_link {
