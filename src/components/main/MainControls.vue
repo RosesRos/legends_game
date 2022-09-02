@@ -85,6 +85,9 @@
             @media (max-width: @mobil-sm-landscape) {
                 max-width: 20rem;
             }
+            @media (max-width: @mobil) {
+                max-width: 100%;
+            }
             .secondary();
             &:nth-child(1) {
                 background-color: rgba(117, 59, 139, 0.6);
