@@ -139,9 +139,11 @@
 
                 @media (max-width: @mobil-landscape) and (orientation: landscape) {
                     cursor: none;
+                    font-size: 1.6rem;
                 }
                 @media (max-width: @mobil-sm-landscape) {
                     cursor: none;
+                    font-size: 1.6rem;
                 }
             }
             &_link {
