@@ -45,7 +45,6 @@
         position: fixed;
         top: 0;
         left: 0;
-        // max-width: 72rem;
         width: 100%;
         height: 100%;
         overflow: auto;
@@ -71,7 +70,6 @@
             height: 100%;
         }
         &_content{
-            // width: 100%;
             border-radius: 2rem;
             padding: 2rem 10rem;
             @media (max-width: @desktop) {
@@ -95,7 +93,6 @@
             }
         }
         &_header {
-            // margin: 2rem 0;
             padding: 2rem 0;
             @media (max-width: @mobil-landscape) and (orientation: landscape) {
                 margin: 0;

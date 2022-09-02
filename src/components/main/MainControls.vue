@@ -17,7 +17,6 @@
 </template>
 
 <script>
-    // import { Data } from './DataMain';
     import ButtonVue from '../subComponents/Button';
     import SubButtons from './subMain/SubButtons.vue';
 
@@ -27,7 +26,6 @@
             return {
                 control: true,
                 showButton: false,
-                // datas: Data
             }
         },
         methods: {
