@@ -39,12 +39,25 @@
                 Active: 'nav active'
             }
         },
+        watch: {
+            flag: function showMenu() {
+                if  (this.flag) {
+                    document.body.style.overflow = 'hidden';
+                    return
+                }
+
+                document.body.style.overflow = 'auto';
+            }
+        },
         methods: {
             checkSize: function() {
                 this.flag = window.innerWidth <= 768;
             },
             showMenu() {
-                this.flag = !this.flag
+                if (this.checkSize) {
+                    this.flag = !this.flag
+                    return
+                }
             }
         },
         // created() {
