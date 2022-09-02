@@ -4054,11 +4054,13 @@ body {
 @media (max-width: 860px) and (orientation: landscape) {
 .footer_menu_item {
     cursor: none;
+    font-size: 1.6rem;
 }
 }
 @media (max-width: 650px) {
 .footer_menu_item {
     cursor: none;
+    font-size: 1.6rem;
 }
 }
 .footer_menu_link {
