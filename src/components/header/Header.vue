@@ -200,6 +200,21 @@
                         width: 100%;
                         border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
                     }
+                    .nav_burger_item {
+                        &:nth-child(1) {
+                            transform-origin: left top;
+                            transform: rotate(90deg) translateY(-0.8rem);
+                            width: 100%;
+                        }
+                        &:nth-child(2) {
+                            opacity: 0;
+                        }
+                        &:nth-child(3) {
+                            transform-origin: bottom left;
+                            transform: translateX(-1rem) translateY(-0.2rem);
+                            width: 100%;
+                        }
+                    }
                 }
             }
             @media (max-width: @mobil-sm-landscape) {
@@ -236,6 +251,21 @@
                         width: 100%;
                         border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
                     }
+                    .nav_burger_item {
+                        &:nth-child(1) {
+                            transform-origin: left top;
+                            transform: rotate(90deg) translateY(-0.8rem);
+                            width: 100%;
+                        }
+                        &:nth-child(2) {
+                            opacity: 0;
+                        }
+                        &:nth-child(3) {
+                            transform-origin: bottom left;
+                            transform: translateX(-1rem) translateY(-0.2rem);
+                            width: 100%;
+                        }
+                    }
                 }
             }
             @media (max-width: @mobil) {
@@ -249,6 +279,9 @@
                     .nav_menu_item {
                         border: 0.3rem solid rgba(114, 79, 137, 0.5);
                         text-align: center;
+                    }
+                    .nav_burger_items {
+                        top: 2rem;
                     }
                 }
             }

@@ -49,7 +49,7 @@
                 margin-bottom: 0.6rem;
                 background-color: var(--textColorOne);
                 border-radius: 2rem;
-                transition: all .2s linear;
+                transition: all .3s linear;
                 &:nth-child(1) {
                     width: 80%;
                 }

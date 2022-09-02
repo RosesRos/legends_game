@@ -1790,7 +1790,7 @@ body {
   margin-bottom: 0.6rem;
   background-color: var(--textColorOne);
   border-radius: 2rem;
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
 }
 .nav_burger_item:nth-child(1) {
   width: 80%;
@@ -2145,6 +2145,19 @@ header .nav.active .nav_menu_item {
     width: 100%;
     border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
 }
+header .nav.active .nav_burger_item:nth-child(1) {
+    transform-origin: left top;
+    transform: rotate(90deg) translateY(-0.8rem);
+    width: 100%;
+}
+header .nav.active .nav_burger_item:nth-child(2) {
+    opacity: 0;
+}
+header .nav.active .nav_burger_item:nth-child(3) {
+    transform-origin: bottom left;
+    transform: translateX(-1rem) translateY(-0.2rem);
+    width: 100%;
+}
 }
 @media (max-width: 650px) {
 header .nav.active {
@@ -2181,6 +2194,19 @@ header .nav.active .nav_menu_item {
     width: 100%;
     border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
 }
+header .nav.active .nav_burger_item:nth-child(1) {
+    transform-origin: left top;
+    transform: rotate(90deg) translateY(-0.8rem);
+    width: 100%;
+}
+header .nav.active .nav_burger_item:nth-child(2) {
+    opacity: 0;
+}
+header .nav.active .nav_burger_item:nth-child(3) {
+    transform-origin: bottom left;
+    transform: translateX(-1rem) translateY(-0.2rem);
+    width: 100%;
+}
 }
 @media (max-width: 480px) {
 header .nav.active .nav_content:nth-child(3) {
@@ -2192,6 +2218,9 @@ header .nav.active .nav_list {
 header .nav.active .nav_menu_item {
     border: 0.3rem solid rgba(114, 79, 137, 0.5);
     text-align: center;
+}
+header .nav.active .nav_burger_items {
+    top: 2rem;
 }
 }
 
