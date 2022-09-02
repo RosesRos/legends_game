@@ -97,14 +97,6 @@
                 }
                 @media (max-width: @mobil-landscape) and (orientation: landscape) {
                     padding: 2rem 4rem;
-                    &.active {
-                        .nav_list {
-                            height: 100%;
-                            align-items: flex-start;
-                            overflow: hidden;
-                            padding: 2rem 4rem;
-                        }
-                    }
                 }
                 @media (max-width: @mobil) {
                     padding: 1.5rem;
@@ -176,24 +168,39 @@
                     right: 0;
                     bottom: 0;
                     z-index: 11;
-                    
-                    // .nav_list {
-                    //     height: 100%;
-                    //     align-items: flex-start;
-                    //     overflow: hidden;
-                    //     padding: 2rem 4rem;
-                    // }
+                    .nav_menu {
+                        padding-left: 0;
+                    }
+                    .nav_list {
+                        height: 100%;
+                        align-items: flex-start;
+                        overflow: hidden;
+                        padding: 2rem 4rem;
+                    }
+                    .nav_content:nth-child(3) {
+                        display: block;
+                        position: absolute;
+                        top: 20%;
+                        left: 5%;
+                        // max-width: 70rem;
+                        width: 90%;
+                    }
                     .nav_menu_items {
                         flex-direction: column;
                         align-items: flex-start;
                         justify-content: center;
-                        transform: translate(50%, 100%);
+                        // transform: translate(50%, 100%);
                     }
-                    .nav_logo {
-                        // position: absolute;
-                        left: 40%;
-                        top: 2.5%;
+                    .nav_menu_item {
+                        margin: 1rem 0;
+                        width: 100%;
+                        border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
                     }
+                    // .nav_logo {
+                    //     position: absolute;
+                    //     left: 40%;
+                    //     top: 2.5%;
+                    // }
                 }
             }
             @media (max-width: @mobil-sm-landscape) {
@@ -204,30 +211,52 @@
                     right: 0;
                     bottom: 0;
                     z-index: 11;
-                    
+                    .nav_menu {
+                        padding-left: 0;
+                    }
                     .nav_list {
                         height: 100%;
                         align-items: flex-start;
                         overflow: hidden;
-                        padding: 2rem 2rem;
+                        padding: 2rem;
+                    }
+                    .nav_content:nth-child(3) {
+                        display: block;
+                        position: absolute;
+                        top: 25%;
+                        left: 5%;
+                        // max-width: 45rem;
+                        width: 90%;
                     }
                     .nav_menu_items {
                         flex-direction: column;
                         align-items: flex-start;
                         justify-content: center;
-                        transform: translate(50%, 100%);
+                        // transform: translate(50%, 100%);
                     }
-                    .nav_logo {
-                        // position: absolute;
-                        left: 40%;
-                        top: 2.5%;
+                    .nav_menu_item {
+                        margin: 1rem 0;
+                        width: 100%;
+                        border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
                     }
+                    // .nav_logo {
+                    //     position: absolute;
+                    //     left: 20%;
+                    //     top: 2.5%;
+                    // }
                 }
             }
-            @media (max-width: @mobil-sm-landscape) {
+            @media (max-width: @mobil) {
                 &.active {
+                    .nav_content:nth-child(3) {
+                        top: 20%;
+                    }
                     .nav_list {
                         padding: 1.5rem;
+                    }
+                    .nav_menu_item {
+                        border: 0.3rem solid rgba(114, 79, 137, 0.5);
+                        text-align: center;
                     }
                 }
             }
