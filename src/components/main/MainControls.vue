@@ -96,6 +96,14 @@
                     background-color: rgba(117, 59, 139, 1);
                 }
             }
+            &>button {
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    cursor: none;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    cursor: none;
+                }
+            }
 
             &_primary {
                 padding: 0.4rem 4rem;

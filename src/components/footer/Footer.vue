@@ -136,6 +136,13 @@
                 @media (max-width: @mobil-sm) {
                     max-width: 100%;
                 }
+
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    cursor: none;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    cursor: none;
+                }
             }
             &_link {
                 position: relative;

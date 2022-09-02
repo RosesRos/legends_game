@@ -88,6 +88,12 @@
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
                 }
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    cursor: none;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    cursor: none;
+                }
                 @media (max-width: 320px) {
                     font-size: 1.6rem;
                 }
@@ -118,6 +124,12 @@
                 &:hover {
                     backdrop-filter: none;
                     background-color: rgba(117, 59, 139, 1);
+                }
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    cursor: none;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    cursor: none;
                 }
                 @media (max-width: 320px) {
                     font-size: 1.6rem;

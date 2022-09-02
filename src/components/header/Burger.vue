@@ -32,10 +32,15 @@
                 z-index: 11;
                 @media (max-width: @mobil-landscape) and (orientation: landscape) {
                     left: 5rem;
+                    cursor: none;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    cursor: none;
                 }
                 @media (max-width: @mobil) {
                     left: 3rem;
                 }
+                
             }
             &_item {
                 display: block;

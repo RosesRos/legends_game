@@ -51,6 +51,12 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                @media (max-width: @mobil-landscape) and (orientation: landscape) {
+                    cursor: none;
+                }
+                @media (max-width: @mobil-sm-landscape) {
+                    cursor: none;
+                }
             }
             &_img {
                 max-width: 4rem;
