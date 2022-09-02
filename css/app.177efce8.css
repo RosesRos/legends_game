@@ -743,6 +743,60 @@ body {
     padding: 2rem;
 }
 }
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
 #app {
   color: var(--textColorOne);
 }
@@ -924,6 +978,60 @@ body {
 .container {
     padding: 2rem;
 }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 .nav_logo {
   display: flex;
@@ -1145,6 +1253,60 @@ body {
 .container {
     padding: 2rem;
 }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 .modal {
   position: fixed;
@@ -1435,6 +1597,60 @@ body {
 .container {
     padding: 2rem;
 }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 .nav_control_btn {
   padding: 0.8rem 3rem;
@@ -1755,6 +1971,60 @@ body {
     padding: 2rem;
 }
 }
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
 .nav_burger_items {
   display: block;
   position: absolute;
@@ -1979,6 +2249,60 @@ body {
 .container {
     padding: 2rem;
 }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 header {
   overflow: hidden;
@@ -2402,6 +2726,60 @@ body[data-v-92f4ccfc] {
     padding: 2rem;
 }
 }
+body[data-v-92f4ccfc]::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body[data-v-92f4ccfc]::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body[data-v-92f4ccfc]::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body[data-v-92f4ccfc]::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body[data-v-92f4ccfc]::-ms-scrollbar {
+  width: 0.6rem;
+}
+body[data-v-92f4ccfc]::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body[data-v-92f4ccfc]::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body[data-v-92f4ccfc]::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body[data-v-92f4ccfc]::-moz-scrollbar {
+  width: 0.6rem;
+}
+body[data-v-92f4ccfc]::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body[data-v-92f4ccfc]::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body[data-v-92f4ccfc]::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
 .banner_block[data-v-92f4ccfc] {
   padding: 5rem 6rem;
   display: flex;
@@ -2752,6 +3130,60 @@ body {
     padding: 2rem;
 }
 }
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
 .controls {
   overflow: hidden;
 }
@@ -3048,6 +3480,60 @@ body {
 .container {
     padding: 2rem;
 }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 .infos_head_list {
   max-width: 25rem;
@@ -3429,6 +3915,60 @@ body {
     padding: 2rem;
 }
 }
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
 .infos_inner {
   background-image: var(--headerBackground);
   background-origin: border-box;
@@ -3754,6 +4294,60 @@ body {
     padding: 2rem;
 }
 }
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
 .section {
   overflow: hidden;
 }
@@ -3993,6 +4587,60 @@ body {
 .container {
     padding: 2rem;
 }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 .footer {
   overflow: hidden;
@@ -4310,6 +4958,60 @@ body {
     padding: 2rem;
 }
 }
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
 .section {
   overflow: hidden;
 }
@@ -4541,6 +5243,60 @@ body {
 .container {
     padding: 2rem;
 }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 .section {
   overflow: hidden;
@@ -5385,5 +6141,59 @@ body {
   .container {
     padding: 2rem;
   }
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-ms-scrollbar-thumb:hover {
+  background: var(--textColorOne);
+}
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+body::-moz-scrollbar-thumb:hover {
+  background: var(--textColorOne);
 }
 
