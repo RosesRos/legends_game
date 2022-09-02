@@ -11,7 +11,7 @@
                 <div class="nav_menu">
                     <ul class="nav_menu_items">
                         <li class="nav_menu_item" v-for="item in items" :key="item.id">
-                            <router-link class="nav_menu_link" :to="item.rout">{{item.link}}</router-link>
+                            <router-link v-on:click="closeLInk" class="nav_menu_link" :to="item.rout">{{item.link}}</router-link>
                         </li>
                     </ul>
                 </div>
@@ -51,11 +51,17 @@
         },
         methods: {
             checkSize: function() {
-                this.flag = window.innerWidth <= 768;
+                this.flag = window.innerWidth <= 860;
             },
             showMenu() {
                 if (this.checkSize) {
                     this.flag = !this.flag
+                    return
+                }
+            },
+            closeLInk: function() {
+                if (this.checkSize) {
+                    this.flag = false
                     return
                 }
             }
@@ -182,25 +188,18 @@
                         position: absolute;
                         top: 20%;
                         left: 5%;
-                        // max-width: 70rem;
                         width: 90%;
                     }
                     .nav_menu_items {
                         flex-direction: column;
                         align-items: flex-start;
                         justify-content: center;
-                        // transform: translate(50%, 100%);
                     }
                     .nav_menu_item {
                         margin: 1rem 0;
                         width: 100%;
                         border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
                     }
-                    // .nav_logo {
-                    //     position: absolute;
-                    //     left: 40%;
-                    //     top: 2.5%;
-                    // }
                 }
             }
             @media (max-width: @mobil-sm-landscape) {
@@ -225,25 +224,18 @@
                         position: absolute;
                         top: 25%;
                         left: 5%;
-                        // max-width: 45rem;
                         width: 90%;
                     }
                     .nav_menu_items {
                         flex-direction: column;
                         align-items: flex-start;
                         justify-content: center;
-                        // transform: translate(50%, 100%);
                     }
                     .nav_menu_item {
                         margin: 1rem 0;
                         width: 100%;
                         border-bottom: 0.3rem solid rgba(114, 79, 137, 0.5);
                     }
-                    // .nav_logo {
-                    //     position: absolute;
-                    //     left: 20%;
-                    //     top: 2.5%;
-                    // }
                 }
             }
             @media (max-width: @mobil) {
