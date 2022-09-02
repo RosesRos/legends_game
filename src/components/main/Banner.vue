@@ -160,7 +160,7 @@
             font-size: 1.6rem;
           }
           @media (max-width: @mobil) {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
           }
           @media (max-width: @mobil-sm) {
             font-size: 1.6rem;
