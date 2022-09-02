@@ -47,10 +47,13 @@
                 this.flag = !this.flag
             }
         },
-        created() {
-            window.addEventListener('resize', this.checkSize);
-            // this.checkSize();
-        },
+        // created() {
+        //     window.addEventListener('resize', this.checkSize);
+        //     // this.checkSize();
+        // },
+        // unmounted() {
+        //     window.removeEventListener('resize', this.checkSize);
+        // },
         components: {
             LogoVue,
             HeaderButton,
