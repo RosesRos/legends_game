@@ -64,3 +64,67 @@ body {
 
   }
 }
+
+
+// Custom Scroll-Bar
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  transition: background .2s linear;
+  &:hover {
+    background: var(--textColorOne);
+  }
+}
+
+body::-ms-scrollbar {
+  width: 0.6rem;
+}
+
+body::-ms-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+
+body::-ms-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  transition: background .2s linear;
+  &:hover {
+    background: var(--textColorOne);
+  }
+}
+
+
+body::-moz-scrollbar {
+  width: 0.6rem;
+}
+
+body::-moz-scrollbar-track {
+  background-color: rgba(117, 59, 139, 0.6);
+  box-shadow: 5px 5px 5px -5px var(--bodyBackground) inset;
+  border-radius: 1rem;
+}
+
+body::-moz-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--headerBackground);
+  background: var(--cardBackground);
+  transition: background .2s linear;
+  &:hover {
+    background: var(--textColorOne);
+  }
+}
