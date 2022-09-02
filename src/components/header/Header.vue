@@ -97,6 +97,14 @@
                 }
                 @media (max-width: @mobil-landscape) and (orientation: landscape) {
                     padding: 2rem 4rem;
+                    &.active {
+                        .nav_list {
+                            height: 100%;
+                            align-items: flex-start;
+                            overflow: hidden;
+                            padding: 2rem 4rem;
+                        }
+                    }
                 }
                 @media (max-width: @mobil) {
                     padding: 1.5rem;
@@ -169,12 +177,12 @@
                     bottom: 0;
                     z-index: 11;
                     
-                    .nav_list {
-                        height: 100%;
-                        align-items: flex-start;
-                        overflow: hidden;
-                        padding: 2rem 4rem;
-                    }
+                    // .nav_list {
+                    //     height: 100%;
+                    //     align-items: flex-start;
+                    //     overflow: hidden;
+                    //     padding: 2rem 4rem;
+                    // }
                     .nav_menu_items {
                         flex-direction: column;
                         align-items: flex-start;
