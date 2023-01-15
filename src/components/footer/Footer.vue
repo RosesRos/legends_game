@@ -107,7 +107,7 @@
                 gap: 3rem;
             }
             &_item {
-                font-size: 1.8rem;
+                font-size: 1.6rem;
                 padding: 1rem 2rem;
                 border: 0.3rem solid rgba(114, 79, 137, 0.5);
                 max-width: 15rem;
