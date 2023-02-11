@@ -10,4 +10,4 @@ It was deployed with Packages:
 - LESS - for styles
 - AosJs - for Scroll-Animation
 
-View [Version Demo](https://facesar.github.io/legends_game/)
+View [Version Demo](https://RosesRos.github.io/legends_game/)
